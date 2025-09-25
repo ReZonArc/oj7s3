@@ -1,0 +1,5781 @@
+Folder PATH listing for volume Data
+Volume serial number is 8A5B─E07B
+D:.
+├───.github
+|   └───workflows
+├───.windsurf
+|   ├───rules
+|   └───workflows
+├───api
+|   └───v1
+|       ├───announcements
+|       ├───contexts
+|       ├───emailTemplates
+|       ├───issues
+|       ├───site
+|       ├───stats
+|       |   ├───editorial
+|       |   └───publications
+|       ├───submissions
+|       ├───temporaryFiles
+|       ├───users
+|       ├───vocabs
+|       ├───_email
+|       ├───_payments
+|       ├───_submissions
+|       └───_uploadPublicFile
+├───classes
+|   ├───article
+|   ├───components
+|   |   ├───forms
+|   |   |   ├───context
+|   |   |   └───publication
+|   |   └───listPanels
+|   ├───controllers
+|   |   └───grid
+|   |       └───issues
+|   ├───core
+|   ├───file
+|   ├───handler
+|   ├───i18n
+|   ├───install
+|   ├───issue
+|   ├───journal
+|   ├───log
+|   ├───mail
+|   ├───migration
+|   |   └───upgrade
+|   ├───notification
+|   |   ├───form
+|   |   └───managerDelegate
+|   ├───oai
+|   |   └───ojs
+|   ├───payment
+|   |   └───ojs
+|   ├───plugins
+|   ├───publication
+|   ├───search
+|   ├───security
+|   |   └───authorization
+|   ├───services
+|   |   └───queryBuilders
+|   ├───statistics
+|   ├───submission
+|   |   ├───form
+|   |   └───reviewer
+|   |       └───form
+|   ├───subscription
+|   |   └───form
+|   ├───tasks
+|   ├───template
+|   ├───user
+|   └───workflow
+├───controllers
+|   ├───api
+|   |   └───file
+|   ├───grid
+|   |   ├───articleGalleys
+|   |   |   └───form
+|   |   ├───issueGalleys
+|   |   ├───issues
+|   |   |   └───form
+|   |   ├───navigationMenus
+|   |   |   └───form
+|   |   ├───pubIds
+|   |   |   └───form
+|   |   ├───settings
+|   |   |   ├───plugins
+|   |   |   └───sections
+|   |   |       └───form
+|   |   ├───submissions
+|   |   ├───subscriptions
+|   |   ├───toc
+|   |   └───users
+|   |       ├───author
+|   |       |   └───form
+|   |       ├───reviewer
+|   |       ├───stageParticipant
+|   |       |   └───form
+|   |       └───subscriberSelect
+|   ├───modals
+|   |   ├───editorDecision
+|   |   |   └───form
+|   |   └───publish
+|   ├───statistics
+|   |   └───form
+|   └───tab
+|       ├───pubIds
+|       |   └───form
+|       └───workflow
+├───dbscripts
+|   └───xml
+|       └───upgrade
+├───docs
+|   ├───manual
+|   |   ├───ar
+|   |   |   ├───editorial─workflow
+|   |   |   └───settings
+|   |   ├───da
+|   |   |   ├───editorial─workflow
+|   |   |   └───settings
+|   |   ├───de
+|   |   ├───en
+|   |   |   ├───editorial─workflow
+|   |   |   └───settings
+|   |   ├───es
+|   |   |   └───editorial─workflow
+|   |   ├───fa
+|   |   |   └───editorial─workflow
+|   |   ├───fr
+|   |   |   ├───editorial─workflow
+|   |   |   └───settings
+|   |   └───pt
+|   |       └───editorial─workflow
+|   └───release─notes
+├───js
+|   └───controllers
+|       └───grid
+|           ├───articleGalleys
+|           └───issues
+├───lib
+|   └───pkp
+|       ├───.github
+|       |   └───ISSUE_TEMPLATE
+|       ├───api
+|       |   └───v1
+|       |       ├───announcements
+|       |       ├───contexts
+|       |       ├───emailTemplates
+|       |       ├───site
+|       |       ├───stats
+|       |       |   ├───editorial
+|       |       |   ├───publications
+|       |       |   └───users
+|       |       ├───submissions
+|       |       ├───temporaryFiles
+|       |       ├───users
+|       |       ├───vocabs
+|       |       ├───_email
+|       |       ├───_payments
+|       |       ├───_submissions
+|       |       └───_uploadPublicFile
+|       ├───classes
+|       |   ├───announcement
+|       |   ├───cache
+|       |   ├───citation
+|       |   ├───cliTool
+|       |   ├───components
+|       |   |   ├───forms
+|       |   |   |   ├───announcement
+|       |   |   |   ├───context
+|       |   |   |   ├───emailTemplate
+|       |   |   |   ├───publication
+|       |   |   |   ├───site
+|       |   |   |   ├───statistics
+|       |   |   |   |   └───users
+|       |   |   |   └───submission
+|       |   |   └───listPanels
+|       |   ├───config
+|       |   ├───context
+|       |   ├───controlledVocab
+|       |   ├───controllers
+|       |   |   ├───grid
+|       |   |   |   ├───feature
+|       |   |   |   |   └───selectableItems
+|       |   |   |   ├───files
+|       |   |   |   ├───plugins
+|       |   |   |   └───users
+|       |   |   |       └───reviewer
+|       |   |   ├───listbuilder
+|       |   |   ├───modals
+|       |   |   |   └───editorDecision
+|       |   |   |       └───form
+|       |   |   └───tab
+|       |   |       └───workflow
+|       |   ├───core
+|       |   ├───currency
+|       |   ├───db
+|       |   ├───file
+|       |   ├───filter
+|       |   ├───form
+|       |   |   └───validation
+|       |   ├───handler
+|       |   ├───i18n
+|       |   ├───identity
+|       |   ├───install
+|       |   |   └───form
+|       |   ├───language
+|       |   ├───linkAction
+|       |   |   └───request
+|       |   ├───log
+|       |   ├───mail
+|       |   ├───metadata
+|       |   ├───migration
+|       |   |   └───upgrade
+|       |   ├───navigationMenu
+|       |   ├───note
+|       |   ├───notification
+|       |   |   ├───form
+|       |   |   └───managerDelegate
+|       |   ├───oai
+|       |   ├───payment
+|       |   ├───plugins
+|       |   |   └───importexport
+|       |   ├───publication
+|       |   ├───query
+|       |   ├───reviewForm
+|       |   ├───scheduledTask
+|       |   ├───search
+|       |   ├───security
+|       |   |   └───authorization
+|       |   |       └───internal
+|       |   ├───services
+|       |   |   ├───interfaces
+|       |   |   └───queryBuilders
+|       |   |       └───interfaces
+|       |   ├───session
+|       |   ├───site
+|       |   ├───stageAssignment
+|       |   ├───statistics
+|       |   ├───submission
+|       |   |   ├───action
+|       |   |   ├───form
+|       |   |   ├───reviewAssignment
+|       |   |   ├───reviewer
+|       |   |   |   └───form
+|       |   |   └───reviewRound
+|       |   ├───task
+|       |   ├───template
+|       |   ├───tombstone
+|       |   ├───user
+|       |   |   └───form
+|       |   ├───validation
+|       |   ├───views
+|       |   ├───webservice
+|       |   ├───workflow
+|       |   ├───xml
+|       |   └───xslt
+|       ├───controllers
+|       |   ├───api
+|       |   |   ├───file
+|       |   |   |   └───linkAction
+|       |   |   ├───task
+|       |   |   └───user
+|       |   ├───confirmationModal
+|       |   |   └───linkAction
+|       |   ├───grid
+|       |   |   ├───admin
+|       |   |   |   ├───context
+|       |   |   |   ├───languages
+|       |   |   |   └───plugins
+|       |   |   ├───announcements
+|       |   |   |   └───form
+|       |   |   ├───eventLog
+|       |   |   |   └───linkAction
+|       |   |   ├───files
+|       |   |   |   ├───attachment
+|       |   |   |   ├───copyedit
+|       |   |   |   |   └───form
+|       |   |   |   ├───dependent
+|       |   |   |   ├───fileList
+|       |   |   |   |   └───linkAction
+|       |   |   |   ├───final
+|       |   |   |   |   └───form
+|       |   |   |   ├───form
+|       |   |   |   ├───productionReady
+|       |   |   |   ├───proof
+|       |   |   |   |   └───form
+|       |   |   |   ├───query
+|       |   |   |   |   └───form
+|       |   |   |   ├───review
+|       |   |   |   |   └───form
+|       |   |   |   ├───submission
+|       |   |   |   └───submissionDocuments
+|       |   |   |       └───form
+|       |   |   ├───languages
+|       |   |   |   └───form
+|       |   |   ├───navigationMenus
+|       |   |   |   └───form
+|       |   |   ├───notifications
+|       |   |   ├───plugins
+|       |   |   |   └───form
+|       |   |   ├───pubIds
+|       |   |   |   └───form
+|       |   |   ├───queries
+|       |   |   |   └───form
+|       |   |   ├───settings
+|       |   |   |   ├───category
+|       |   |   |   |   └───form
+|       |   |   |   ├───genre
+|       |   |   |   |   └───form
+|       |   |   |   ├───languages
+|       |   |   |   ├───library
+|       |   |   |   |   └───form
+|       |   |   |   ├───reviewForms
+|       |   |   |   |   └───form
+|       |   |   |   ├───roles
+|       |   |   |   |   └───form
+|       |   |   |   ├───sections
+|       |   |   |   |   └───form
+|       |   |   |   ├───submissionChecklist
+|       |   |   |   |   └───form
+|       |   |   |   └───user
+|       |   |   |       └───form
+|       |   |   └───users
+|       |   |       ├───author
+|       |   |       |   └───form
+|       |   |       ├───exportableUsers
+|       |   |       ├───reviewer
+|       |   |       |   └───form
+|       |   |       ├───stageParticipant
+|       |   |       |   ├───form
+|       |   |       |   └───linkAction
+|       |   |       └───userSelect
+|       |   ├───informationCenter
+|       |   |   ├───form
+|       |   |   └───linkAction
+|       |   ├───listbuilder
+|       |   |   ├───settings
+|       |   |   |   └───reviewForms
+|       |   |   └───users
+|       |   ├───modals
+|       |   |   ├───documentLibrary
+|       |   |   |   └───linkAction
+|       |   |   ├───editorDecision
+|       |   |   |   └───form
+|       |   |   ├───publish
+|       |   |   ├───review
+|       |   |   └───submission
+|       |   ├───page
+|       |   ├───review
+|       |   |   └───linkAction
+|       |   ├───statistics
+|       |   |   └───form
+|       |   ├───tab
+|       |   |   ├───authorDashboard
+|       |   |   ├───pubIds
+|       |   |   |   └───form
+|       |   |   ├───user
+|       |   |   └───workflow
+|       |   └───wizard
+|       |       └───fileUpload
+|       |           └───form
+|       ├───dtd
+|       ├───includes
+|       ├───js
+|       |   ├───classes
+|       |   |   ├───features
+|       |   |   ├───linkAction
+|       |   |   └───notification
+|       |   ├───controllers
+|       |   |   ├───dashboard
+|       |   |   |   └───form
+|       |   |   ├───form
+|       |   |   |   └───reviewer
+|       |   |   ├───grid
+|       |   |   |   ├───files
+|       |   |   |   |   └───review
+|       |   |   |   ├───navigationMenus
+|       |   |   |   |   └───form
+|       |   |   |   ├───notifications
+|       |   |   |   ├───queries
+|       |   |   |   ├───representations
+|       |   |   |   |   └───form
+|       |   |   |   ├───settings
+|       |   |   |   |   ├───roles
+|       |   |   |   |   |   └───form
+|       |   |   |   |   └───user
+|       |   |   |   |       └───form
+|       |   |   |   └───users
+|       |   |   |       ├───reviewer
+|       |   |   |       |   └───form
+|       |   |   |       └───stageParticipant
+|       |   |   |           └───form
+|       |   |   ├───informationCenter
+|       |   |   ├───linkAction
+|       |   |   ├───listbuilder
+|       |   |   ├───modal
+|       |   |   ├───modals
+|       |   |   |   └───editorDecision
+|       |   |   |       └───form
+|       |   |   ├───statistics
+|       |   |   ├───tab
+|       |   |   |   └───workflow
+|       |   |   └───wizard
+|       |   |       └───fileUpload
+|       |   |           └───form
+|       |   ├───lib
+|       |   |   └───jquery
+|       |   |       └───plugins
+|       |   |           ├───orbit
+|       |   |           └───validate
+|       |   |               └───localization
+|       |   └───pages
+|       |       ├───authorDashboard
+|       |       ├───header
+|       |       ├───reviewer
+|       |       ├───submission
+|       |       └───workflow
+|       ├───lib
+|       |   ├───counterBots
+|       |   |   └───generated
+|       |   ├───pdfobject
+|       |   └───vendor
+|       |       ├───adodb
+|       |       |   └───adodb─php
+|       |       |       ├───contrib
+|       |       |       ├───cute_icons_for_site
+|       |       |       ├───datadict
+|       |       |       ├───docs
+|       |       |       ├───drivers
+|       |       |       ├───lang
+|       |       |       ├───pear
+|       |       |       |   └───Auth
+|       |       |       |       └───Container
+|       |       |       ├───perf
+|       |       |       ├───replicate
+|       |       |       ├───session
+|       |       |       |   └───old
+|       |       |       └───xsl
+|       |       ├───bin
+|       |       ├───brick
+|       |       |   └───math
+|       |       |       └───src
+|       |       |           ├───Exception
+|       |       |           └───Internal
+|       |       |               └───Calculator
+|       |       ├───components
+|       |       |   ├───jquery
+|       |       |   └───jqueryui
+|       |       |       ├───themes
+|       |       |       |   ├───base
+|       |       |       |   |   └───images
+|       |       |       |   ├───black─tie
+|       |       |       |   |   └───images
+|       |       |       |   ├───blitzer
+|       |       |       |   |   └───images
+|       |       |       |   ├───cupertino
+|       |       |       |   |   └───images
+|       |       |       |   ├───dark─hive
+|       |       |       |   |   └───images
+|       |       |       |   ├───dot─luv
+|       |       |       |   |   └───images
+|       |       |       |   ├───eggplant
+|       |       |       |   |   └───images
+|       |       |       |   ├───excite─bike
+|       |       |       |   |   └───images
+|       |       |       |   ├───flick
+|       |       |       |   |   └───images
+|       |       |       |   ├───hot─sneaks
+|       |       |       |   |   └───images
+|       |       |       |   ├───humanity
+|       |       |       |   |   └───images
+|       |       |       |   ├───le─frog
+|       |       |       |   |   └───images
+|       |       |       |   ├───mint─choc
+|       |       |       |   |   └───images
+|       |       |       |   ├───overcast
+|       |       |       |   |   └───images
+|       |       |       |   ├───pepper─grinder
+|       |       |       |   |   └───images
+|       |       |       |   ├───redmond
+|       |       |       |   |   └───images
+|       |       |       |   ├───smoothness
+|       |       |       |   |   └───images
+|       |       |       |   ├───south─street
+|       |       |       |   |   └───images
+|       |       |       |   ├───start
+|       |       |       |   |   └───images
+|       |       |       |   ├───sunny
+|       |       |       |   |   └───images
+|       |       |       |   ├───swanky─purse
+|       |       |       |   |   └───images
+|       |       |       |   ├───trontastic
+|       |       |       |   |   └───images
+|       |       |       |   ├───ui─darkness
+|       |       |       |   |   └───images
+|       |       |       |   ├───ui─lightness
+|       |       |       |   |   └───images
+|       |       |       |   └───vader
+|       |       |       |       └───images
+|       |       |       └───ui
+|       |       |           ├───effects
+|       |       |           ├───i18n
+|       |       |           ├───minified
+|       |       |           |   └───i18n
+|       |       |           └───widgets
+|       |       ├───composer
+|       |       ├───cweagans
+|       |       |   └───composer─patches
+|       |       |       └───src
+|       |       ├───danielstjules
+|       |       |   └───stringy
+|       |       |       └───src
+|       |       ├───doctrine
+|       |       |   ├───cache
+|       |       |   |   └───lib
+|       |       |   |       └───Doctrine
+|       |       |   |           └───Common
+|       |       |   |               └───Cache
+|       |       |   ├───dbal
+|       |       |   |   ├───bin
+|       |       |   |   └───lib
+|       |       |   |       └───Doctrine
+|       |       |   |           └───DBAL
+|       |       |   |               ├───Abstraction
+|       |       |   |               ├───Cache
+|       |       |   |               ├───Connections
+|       |       |   |               ├───Driver
+|       |       |   |               |   ├───AbstractOracleDriver
+|       |       |   |               |   ├───AbstractSQLServerDriver
+|       |       |   |               |   |   └───Exception
+|       |       |   |               |   ├───DrizzlePDOMySql
+|       |       |   |               |   ├───IBMDB2
+|       |       |   |               |   |   └───Exception
+|       |       |   |               |   ├───Mysqli
+|       |       |   |               |   |   └───Exception
+|       |       |   |               |   ├───OCI8
+|       |       |   |               |   |   └───Exception
+|       |       |   |               |   ├───PDO
+|       |       |   |               |   |   ├───MySQL
+|       |       |   |               |   |   ├───OCI
+|       |       |   |               |   |   ├───PgSQL
+|       |       |   |               |   |   ├───SQLite
+|       |       |   |               |   |   └───SQLSrv
+|       |       |   |               |   ├───PDOIbm
+|       |       |   |               |   ├───PDOMySql
+|       |       |   |               |   ├───PDOOracle
+|       |       |   |               |   ├───PDOPgSql
+|       |       |   |               |   ├───PDOSqlite
+|       |       |   |               |   ├───PDOSqlsrv
+|       |       |   |               |   ├───SQLAnywhere
+|       |       |   |               |   └───SQLSrv
+|       |       |   |               |       └───Exception
+|       |       |   |               ├───Event
+|       |       |   |               |   └───Listeners
+|       |       |   |               ├───Exception
+|       |       |   |               ├───Id
+|       |       |   |               ├───Logging
+|       |       |   |               ├───Platforms
+|       |       |   |               |   └───Keywords
+|       |       |   |               ├───Portability
+|       |       |   |               ├───Query
+|       |       |   |               |   └───Expression
+|       |       |   |               ├───Schema
+|       |       |   |               |   ├───Synchronizer
+|       |       |   |               |   └───Visitor
+|       |       |   |               ├───Sharding
+|       |       |   |               |   ├───ShardChoser
+|       |       |   |               |   └───SQLAzure
+|       |       |   |               |       └───Schema
+|       |       |   |               ├───Tools
+|       |       |   |               |   └───Console
+|       |       |   |               |       ├───Command
+|       |       |   |               |       ├───ConnectionProvider
+|       |       |   |               |       └───Helper
+|       |       |   |               └───Types
+|       |       |   ├───event─manager
+|       |       |   |   └───lib
+|       |       |   |       └───Doctrine
+|       |       |   |           └───Common
+|       |       |   ├───inflector
+|       |       |   |   ├───docs
+|       |       |   |   |   └───en
+|       |       |   |   └───lib
+|       |       |   |       └───Doctrine
+|       |       |   |           └───Inflector
+|       |       |   |               └───Rules
+|       |       |   |                   ├───English
+|       |       |   |                   ├───French
+|       |       |   |                   ├───NorwegianBokmal
+|       |       |   |                   ├───Portuguese
+|       |       |   |                   ├───Spanish
+|       |       |   |                   └───Turkish
+|       |       |   └───lexer
+|       |       |       └───lib
+|       |       |           └───Doctrine
+|       |       |               └───Common
+|       |       |                   └───Lexer
+|       |       ├───dragonmantank
+|       |       |   └───cron─expression
+|       |       |       └───src
+|       |       |           └───Cron
+|       |       ├───egulias
+|       |       |   └───email─validator
+|       |       |       └───src
+|       |       |           ├───Exception
+|       |       |           ├───Parser
+|       |       |           ├───Validation
+|       |       |           |   ├───Error
+|       |       |           |   └───Exception
+|       |       |           └───Warning
+|       |       ├───ezyang
+|       |       |   └───htmlpurifier
+|       |       |       └───library
+|       |       |           └───HTMLPurifier
+|       |       |               ├───AttrDef
+|       |       |               |   ├───CSS
+|       |       |               |   ├───HTML
+|       |       |               |   └───URI
+|       |       |               |       └───Email
+|       |       |               ├───AttrTransform
+|       |       |               ├───ChildDef
+|       |       |               ├───ConfigSchema
+|       |       |               |   ├───Builder
+|       |       |               |   ├───Interchange
+|       |       |               |   └───schema
+|       |       |               ├───DefinitionCache
+|       |       |               |   ├───Decorator
+|       |       |               |   └───Serializer
+|       |       |               ├───EntityLookup
+|       |       |               ├───Filter
+|       |       |               ├───HTMLModule
+|       |       |               |   └───Tidy
+|       |       |               ├───Injector
+|       |       |               ├───Language
+|       |       |               |   └───messages
+|       |       |               ├───Lexer
+|       |       |               ├───Node
+|       |       |               ├───Printer
+|       |       |               ├───Strategy
+|       |       |               ├───TagTransform
+|       |       |               ├───Token
+|       |       |               ├───URIFilter
+|       |       |               ├───URIScheme
+|       |       |               └───VarParser
+|       |       ├───firebase
+|       |       |   └───php─jwt
+|       |       |       └───src
+|       |       ├───gettext
+|       |       |   ├───gettext
+|       |       |   |   └───src
+|       |       |   |       ├───Extractors
+|       |       |   |       ├───Generators
+|       |       |   |       └───Utils
+|       |       |   └───languages
+|       |       |       ├───bin
+|       |       |       └───src
+|       |       |           ├───cldr─data
+|       |       |           |   ├───main
+|       |       |           |   |   └───en─US
+|       |       |           |   └───supplemental
+|       |       |           └───Exporter
+|       |       ├───guzzlehttp
+|       |       |   ├───guzzle
+|       |       |   |   └───src
+|       |       |   |       ├───Cookie
+|       |       |   |       ├───Exception
+|       |       |   |       └───Handler
+|       |       |   ├───promises
+|       |       |   |   └───src
+|       |       |   └───psr7
+|       |       |       └───src
+|       |       ├───laravel
+|       |       |   └───framework
+|       |       |       └───src
+|       |       |           └───Illuminate
+|       |       |               ├───Auth
+|       |       |               |   ├───Access
+|       |       |               |   ├───Console
+|       |       |               |   |   └───stubs
+|       |       |               |   |       └───make
+|       |       |               |   |           └───views
+|       |       |               |   |               └───layouts
+|       |       |               |   ├───Events
+|       |       |               |   ├───Listeners
+|       |       |               |   ├───Middleware
+|       |       |               |   ├───Notifications
+|       |       |               |   └───Passwords
+|       |       |               ├───Broadcasting
+|       |       |               |   └───Broadcasters
+|       |       |               ├───Bus
+|       |       |               ├───Cache
+|       |       |               |   ├───Console
+|       |       |               |   |   └───stubs
+|       |       |               |   └───Events
+|       |       |               ├───Config
+|       |       |               ├───Console
+|       |       |               |   ├───Concerns
+|       |       |               |   ├───Events
+|       |       |               |   └───Scheduling
+|       |       |               ├───Container
+|       |       |               ├───Contracts
+|       |       |               |   ├───Auth
+|       |       |               |   |   ├───Access
+|       |       |               |   |   └───Middleware
+|       |       |               |   ├───Broadcasting
+|       |       |               |   ├───Bus
+|       |       |               |   ├───Cache
+|       |       |               |   ├───Config
+|       |       |               |   ├───Console
+|       |       |               |   ├───Container
+|       |       |               |   ├───Cookie
+|       |       |               |   ├───Database
+|       |       |               |   |   ├───Eloquent
+|       |       |               |   |   └───Events
+|       |       |               |   ├───Debug
+|       |       |               |   ├───Encryption
+|       |       |               |   ├───Events
+|       |       |               |   ├───Filesystem
+|       |       |               |   ├───Foundation
+|       |       |               |   ├───Hashing
+|       |       |               |   ├───Http
+|       |       |               |   ├───Mail
+|       |       |               |   ├───Notifications
+|       |       |               |   ├───Pagination
+|       |       |               |   ├───Pipeline
+|       |       |               |   ├───Queue
+|       |       |               |   ├───Redis
+|       |       |               |   ├───Routing
+|       |       |               |   ├───Session
+|       |       |               |   ├───Support
+|       |       |               |   ├───Translation
+|       |       |               |   ├───Validation
+|       |       |               |   └───View
+|       |       |               ├───Cookie
+|       |       |               |   └───Middleware
+|       |       |               ├───Database
+|       |       |               |   ├───Capsule
+|       |       |               |   ├───Concerns
+|       |       |               |   ├───Connectors
+|       |       |               |   ├───Console
+|       |       |               |   |   ├───Factories
+|       |       |               |   |   |   └───stubs
+|       |       |               |   |   ├───Migrations
+|       |       |               |   |   └───Seeds
+|       |       |               |   |       └───stubs
+|       |       |               |   ├───Eloquent
+|       |       |               |   |   ├───Concerns
+|       |       |               |   |   └───Relations
+|       |       |               |   |       └───Concerns
+|       |       |               |   ├───Events
+|       |       |               |   ├───Migrations
+|       |       |               |   |   └───stubs
+|       |       |               |   ├───Query
+|       |       |               |   |   ├───Grammars
+|       |       |               |   |   └───Processors
+|       |       |               |   └───Schema
+|       |       |               |       └───Grammars
+|       |       |               ├───Encryption
+|       |       |               ├───Events
+|       |       |               ├───Filesystem
+|       |       |               ├───Foundation
+|       |       |               |   ├───Auth
+|       |       |               |   |   └───Access
+|       |       |               |   ├───Bootstrap
+|       |       |               |   ├───Bus
+|       |       |               |   ├───Console
+|       |       |               |   |   └───stubs
+|       |       |               |   ├───Events
+|       |       |               |   ├───Exceptions
+|       |       |               |   |   └───views
+|       |       |               |   ├───Http
+|       |       |               |   |   ├───Events
+|       |       |               |   |   ├───Exceptions
+|       |       |               |   |   └───Middleware
+|       |       |               |   ├───Providers
+|       |       |               |   ├───stubs
+|       |       |               |   ├───Support
+|       |       |               |   |   └───Providers
+|       |       |               |   ├───Testing
+|       |       |               |   |   └───Concerns
+|       |       |               |   └───Validation
+|       |       |               ├───Hashing
+|       |       |               ├───Http
+|       |       |               |   ├───Client
+|       |       |               |   ├───Concerns
+|       |       |               |   ├───Exceptions
+|       |       |               |   ├───Middleware
+|       |       |               |   ├───Resources
+|       |       |               |   |   └───Json
+|       |       |               |   └───Testing
+|       |       |               ├───Log
+|       |       |               |   └───Events
+|       |       |               ├───Mail
+|       |       |               |   ├───Events
+|       |       |               |   ├───resources
+|       |       |               |   |   └───views
+|       |       |               |   |       ├───html
+|       |       |               |   |       |   └───themes
+|       |       |               |   |       └───text
+|       |       |               |   └───Transport
+|       |       |               ├───Notifications
+|       |       |               |   ├───Channels
+|       |       |               |   ├───Console
+|       |       |               |   |   └───stubs
+|       |       |               |   ├───Events
+|       |       |               |   ├───Messages
+|       |       |               |   └───resources
+|       |       |               |       └───views
+|       |       |               ├───Pagination
+|       |       |               |   └───resources
+|       |       |               |       └───views
+|       |       |               ├───Pipeline
+|       |       |               ├───Queue
+|       |       |               |   ├───Capsule
+|       |       |               |   ├───Connectors
+|       |       |               |   ├───Console
+|       |       |               |   |   └───stubs
+|       |       |               |   ├───Events
+|       |       |               |   ├───Failed
+|       |       |               |   └───Jobs
+|       |       |               ├───Redis
+|       |       |               |   ├───Connections
+|       |       |               |   ├───Connectors
+|       |       |               |   ├───Events
+|       |       |               |   └───Limiters
+|       |       |               ├───Routing
+|       |       |               |   ├───Console
+|       |       |               |   |   └───stubs
+|       |       |               |   ├───Contracts
+|       |       |               |   ├───Events
+|       |       |               |   ├───Exceptions
+|       |       |               |   ├───Matching
+|       |       |               |   └───Middleware
+|       |       |               ├───Session
+|       |       |               |   ├───Console
+|       |       |               |   |   └───stubs
+|       |       |               |   └───Middleware
+|       |       |               ├───Support
+|       |       |               |   ├───Facades
+|       |       |               |   ├───Testing
+|       |       |               |   |   └───Fakes
+|       |       |               |   └───Traits
+|       |       |               ├───Testing
+|       |       |               |   └───Constraints
+|       |       |               ├───Translation
+|       |       |               ├───Validation
+|       |       |               |   ├───Concerns
+|       |       |               |   └───Rules
+|       |       |               └───View
+|       |       |                   ├───Compilers
+|       |       |                   |   └───Concerns
+|       |       |                   ├───Concerns
+|       |       |                   ├───Engines
+|       |       |                   └───Middleware
+|       |       ├───league
+|       |       |   ├───commonmark
+|       |       |   |   ├───bin
+|       |       |   |   └───src
+|       |       |   |       ├───Block
+|       |       |   |       |   ├───Element
+|       |       |   |       |   ├───Parser
+|       |       |   |       |   └───Renderer
+|       |       |   |       ├───Delimiter
+|       |       |   |       |   └───Processor
+|       |       |   |       ├───Event
+|       |       |   |       ├───Exception
+|       |       |   |       ├───Extension
+|       |       |   |       |   ├───Attributes
+|       |       |   |       |   |   ├───Event
+|       |       |   |       |   |   ├───Node
+|       |       |   |       |   |   ├───Parser
+|       |       |   |       |   |   └───Util
+|       |       |   |       |   ├───Autolink
+|       |       |   |       |   ├───DisallowedRawHtml
+|       |       |   |       |   ├───ExternalLink
+|       |       |   |       |   ├───Footnote
+|       |       |   |       |   |   ├───Event
+|       |       |   |       |   |   ├───Node
+|       |       |   |       |   |   ├───Parser
+|       |       |   |       |   |   └───Renderer
+|       |       |   |       |   ├───HeadingPermalink
+|       |       |   |       |   |   └───Slug
+|       |       |   |       |   ├───InlinesOnly
+|       |       |   |       |   ├───Mention
+|       |       |   |       |   |   └───Generator
+|       |       |   |       |   ├───SmartPunct
+|       |       |   |       |   ├───Strikethrough
+|       |       |   |       |   ├───Table
+|       |       |   |       |   ├───TableOfContents
+|       |       |   |       |   |   ├───Node
+|       |       |   |       |   |   └───Normalizer
+|       |       |   |       |   └───TaskList
+|       |       |   |       ├───Inline
+|       |       |   |       |   ├───Element
+|       |       |   |       |   ├───Parser
+|       |       |   |       |   └───Renderer
+|       |       |   |       ├───Input
+|       |       |   |       ├───Node
+|       |       |   |       ├───Normalizer
+|       |       |   |       ├───Reference
+|       |       |   |       └───Util
+|       |       |   ├───flysystem
+|       |       |   |   └───src
+|       |       |   |       ├───Adapter
+|       |       |   |       |   └───Polyfill
+|       |       |   |       ├───Plugin
+|       |       |   |       └───Util
+|       |       |   ├───flysystem─sftp
+|       |       |   |   └───src
+|       |       |   └───mime─type─detection
+|       |       |       └───src
+|       |       ├───michelf
+|       |       |   └───php─markdown
+|       |       |       └───Michelf
+|       |       ├───monolog
+|       |       |   └───monolog
+|       |       |       └───src
+|       |       |           └───Monolog
+|       |       |               ├───Formatter
+|       |       |               ├───Handler
+|       |       |               |   ├───Curl
+|       |       |               |   ├───FingersCrossed
+|       |       |               |   ├───Slack
+|       |       |               |   └───SyslogUdp
+|       |       |               ├───Processor
+|       |       |               └───Test
+|       |       ├───moxiecode
+|       |       |   └───plupload
+|       |       |       └───js
+|       |       |           ├───i18n
+|       |       |           ├───jquery.plupload.queue
+|       |       |           |   ├───css
+|       |       |           |   └───img
+|       |       |           └───jquery.ui.plupload
+|       |       |               ├───css
+|       |       |               └───img
+|       |       ├───nesbot
+|       |       |   └───carbon
+|       |       |       ├───bin
+|       |       |       └───src
+|       |       |           └───Carbon
+|       |       |               ├───Cli
+|       |       |               ├───Doctrine
+|       |       |               ├───Exceptions
+|       |       |               ├───Lang
+|       |       |               ├───Laravel
+|       |       |               ├───List
+|       |       |               ├───PHPStan
+|       |       |               └───Traits
+|       |       ├───nikic
+|       |       |   └───fast─route
+|       |       |       └───src
+|       |       |           ├───DataGenerator
+|       |       |           ├───Dispatcher
+|       |       |           └───RouteParser
+|       |       ├───opis
+|       |       |   └───closure
+|       |       |       └───src
+|       |       ├───phpmailer
+|       |       |   └───phpmailer
+|       |       |       ├───language
+|       |       |       └───src
+|       |       ├───phpoption
+|       |       |   └───phpoption
+|       |       |       └───src
+|       |       |           └───PhpOption
+|       |       ├───phpseclib
+|       |       |   └───phpseclib
+|       |       |       └───phpseclib
+|       |       |           ├───Crypt
+|       |       |           ├───File
+|       |       |           |   └───ASN1
+|       |       |           ├───Math
+|       |       |           ├───Net
+|       |       |           |   └───SFTP
+|       |       |           └───System
+|       |       |               └───SSH
+|       |       |                   └───Agent
+|       |       ├───pimple
+|       |       |   └───pimple
+|       |       |       └───src
+|       |       |           └───Pimple
+|       |       |               ├───Exception
+|       |       |               └───Psr11
+|       |       ├───psr
+|       |       |   ├───container
+|       |       |   |   └───src
+|       |       |   ├───event─dispatcher
+|       |       |   |   └───src
+|       |       |   ├───http─message
+|       |       |   |   └───src
+|       |       |   ├───log
+|       |       |   |   └───Psr
+|       |       |   |       └───Log
+|       |       |   |           └───Test
+|       |       |   └───simple─cache
+|       |       |       └───src
+|       |       ├───ralouphie
+|       |       |   └───getallheaders
+|       |       |       └───src
+|       |       ├───ramsey
+|       |       |   ├───collection
+|       |       |   |   └───src
+|       |       |   |       ├───Exception
+|       |       |   |       ├───Map
+|       |       |   |       └───Tool
+|       |       |   └───uuid
+|       |       |       └───src
+|       |       |           ├───Builder
+|       |       |           ├───Codec
+|       |       |           ├───Converter
+|       |       |           |   ├───Number
+|       |       |           |   └───Time
+|       |       |           ├───Exception
+|       |       |           ├───Fields
+|       |       |           ├───Generator
+|       |       |           ├───Guid
+|       |       |           ├───Lazy
+|       |       |           ├───Math
+|       |       |           ├───Nonstandard
+|       |       |           ├───Provider
+|       |       |           |   ├───Dce
+|       |       |           |   ├───Node
+|       |       |           |   └───Time
+|       |       |           ├───Rfc4122
+|       |       |           ├───Type
+|       |       |           └───Validator
+|       |       ├───slim
+|       |       |   └───slim
+|       |       |       └───Slim
+|       |       |           ├───Exception
+|       |       |           ├───Handlers
+|       |       |           |   └───Strategies
+|       |       |           ├───Http
+|       |       |           └───Interfaces
+|       |       |               └───Http
+|       |       ├───smarty
+|       |       |   └───smarty
+|       |       |       ├───lexer
+|       |       |       └───libs
+|       |       |           ├───plugins
+|       |       |           └───sysplugins
+|       |       ├───sokil
+|       |       |   └───php─isocodes
+|       |       |       ├───bin
+|       |       |       ├───databases
+|       |       |       |   ├───iso_3166─2
+|       |       |       |   └───iso_639─3
+|       |       |       |       ├───alpha2
+|       |       |       |       └───alpha3
+|       |       |       ├───messages
+|       |       |       |   ├───ab
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ace
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ach
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───af
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ak
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───am
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───an
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ar
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───as
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ast
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ay
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───az
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ba
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───bar
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───be
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───bg
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───bi
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───bn
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───bn_BD
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───bn_IN
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───br
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───bs
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───byn
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ca
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ce
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ch
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───chr
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ckb
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───crh
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───cs
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───csb
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───cv
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───cy
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───da
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───de
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───dv
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───dz
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ee
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───el
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───en
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───eo
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───es
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───et
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───eu
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───fa
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ff
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───fi
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───fil
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───fo
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───fr
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───frp
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───fur
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───fy
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ga
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───gez
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───gl
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───gn
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───gu
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───gv
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ha
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───haw
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───he
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───hi
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───hr
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ht
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───hu
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───hy
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ia
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───id
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───io
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───is
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───iso_15924t
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───iso_3166─1t
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───iso_3166─2t
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───iso_3166─3t
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───iso_4217t
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───iso_639─2t
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───iso_639─3t
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───iso_639─5t
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───it
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───iu
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ja
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───jam
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ka
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───kab
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ki
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───kk
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───kl
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───km
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───kn
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ko
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───kok
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ku
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───kv
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───kw
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ky
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───lo
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───lt
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───lv
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───mai
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───mhr
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───mi
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───mk
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ml
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───mn
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───mo
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───mr
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ms
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───mt
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───my
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───na
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───nah
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───nb
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───nb_NO
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ne
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───nl
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───nn
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───nso
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───nv
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───oc
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───or
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───pa
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───pap
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───pi
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───pl
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ps
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───pt
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───pt_BR
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ro
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ru
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───rw
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───sc
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───sd
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───si
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───sk
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───sl
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───so
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───son
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───sq
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───sr
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───sr@latin
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───sv
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───sw
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ta
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───te
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───tg
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───th
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ti
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───tig
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───tk
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───tl
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───tr
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───tt
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───tt@iqtelif
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ug
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───uk
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ur
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───uz
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───ve
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───vi
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───wa
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───wal
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───wo
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───xh
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───yo
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───zh_CN
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───zh_Hant
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───zh_HK
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   ├───zh_TW
+|       |       |       |   |   └───LC_MESSAGES
+|       |       |       |   └───zu
+|       |       |       |       └───LC_MESSAGES
+|       |       |       └───src
+|       |       |           └───Database
+|       |       |               ├───Countries
+|       |       |               ├───Currencies
+|       |       |               ├───HistoricCountries
+|       |       |               ├───Languages
+|       |       |               ├───Scripts
+|       |       |               └───Subdivisions
+|       |       ├───staudenmeir
+|       |       |   └───laravel─upsert
+|       |       |       └───src
+|       |       |           ├───Connections
+|       |       |           ├───Connectors
+|       |       |           ├───Eloquent
+|       |       |           └───Query
+|       |       |               └───Grammars
+|       |       ├───swiftmailer
+|       |       |   └───swiftmailer
+|       |       |       ├───.github
+|       |       |       ├───doc
+|       |       |       └───lib
+|       |       |           ├───classes
+|       |       |           |   └───Swift
+|       |       |           |       ├───AddressEncoder
+|       |       |           |       ├───ByteStream
+|       |       |           |       ├───CharacterReader
+|       |       |           |       ├───CharacterReaderFactory
+|       |       |           |       ├───CharacterStream
+|       |       |           |       ├───Encoder
+|       |       |           |       ├───Events
+|       |       |           |       ├───KeyCache
+|       |       |           |       ├───Mailer
+|       |       |           |       ├───Mime
+|       |       |           |       |   ├───ContentEncoder
+|       |       |           |       |   ├───HeaderEncoder
+|       |       |           |       |   └───Headers
+|       |       |           |       ├───Plugins
+|       |       |           |       |   ├───Decorator
+|       |       |           |       |   ├───Loggers
+|       |       |           |       |   ├───Pop
+|       |       |           |       |   └───Reporters
+|       |       |           |       ├───Signers
+|       |       |           |       ├───StreamFilters
+|       |       |           |       └───Transport
+|       |       |           |           └───Esmtp
+|       |       |           |               └───Auth
+|       |       |           └───dependency_maps
+|       |       ├───symfony
+|       |       |   ├───console
+|       |       |   |   ├───Command
+|       |       |   |   ├───CommandLoader
+|       |       |   |   ├───DependencyInjection
+|       |       |   |   ├───Descriptor
+|       |       |   |   ├───Event
+|       |       |   |   ├───EventListener
+|       |       |   |   ├───Exception
+|       |       |   |   ├───Formatter
+|       |       |   |   ├───Helper
+|       |       |   |   ├───Input
+|       |       |   |   ├───Logger
+|       |       |   |   ├───Output
+|       |       |   |   ├───Question
+|       |       |   |   ├───Resources
+|       |       |   |   |   └───bin
+|       |       |   |   ├───SignalRegistry
+|       |       |   |   ├───Style
+|       |       |   |   └───Tester
+|       |       |   ├───css─selector
+|       |       |   |   ├───Exception
+|       |       |   |   ├───Node
+|       |       |   |   ├───Parser
+|       |       |   |   |   ├───Handler
+|       |       |   |   |   ├───Shortcut
+|       |       |   |   |   └───Tokenizer
+|       |       |   |   └───XPath
+|       |       |   |       └───Extension
+|       |       |   ├───deprecation─contracts
+|       |       |   ├───error─handler
+|       |       |   |   ├───Error
+|       |       |   |   ├───ErrorEnhancer
+|       |       |   |   ├───ErrorRenderer
+|       |       |   |   ├───Exception
+|       |       |   |   └───Resources
+|       |       |   |       ├───assets
+|       |       |   |       |   ├───css
+|       |       |   |       |   ├───images
+|       |       |   |       |   └───js
+|       |       |   |       └───views
+|       |       |   ├───event─dispatcher
+|       |       |   |   ├───Debug
+|       |       |   |   └───DependencyInjection
+|       |       |   ├───event─dispatcher─contracts
+|       |       |   ├───finder
+|       |       |   |   ├───Comparator
+|       |       |   |   ├───Exception
+|       |       |   |   └───Iterator
+|       |       |   ├───http─client─contracts
+|       |       |   |   ├───Exception
+|       |       |   |   └───Test
+|       |       |   |       └───Fixtures
+|       |       |   |           └───web
+|       |       |   ├───http─foundation
+|       |       |   |   ├───Exception
+|       |       |   |   ├───File
+|       |       |   |   |   └───Exception
+|       |       |   |   ├───RateLimiter
+|       |       |   |   ├───Session
+|       |       |   |   |   ├───Attribute
+|       |       |   |   |   ├───Flash
+|       |       |   |   |   └───Storage
+|       |       |   |   |       ├───Handler
+|       |       |   |   |       └───Proxy
+|       |       |   |   └───Test
+|       |       |   |       └───Constraint
+|       |       |   ├───http─kernel
+|       |       |   |   ├───Attribute
+|       |       |   |   ├───Bundle
+|       |       |   |   ├───CacheClearer
+|       |       |   |   ├───CacheWarmer
+|       |       |   |   ├───Config
+|       |       |   |   ├───Controller
+|       |       |   |   |   └───ArgumentResolver
+|       |       |   |   ├───ControllerMetadata
+|       |       |   |   ├───DataCollector
+|       |       |   |   ├───Debug
+|       |       |   |   ├───DependencyInjection
+|       |       |   |   ├───Event
+|       |       |   |   ├───EventListener
+|       |       |   |   ├───Exception
+|       |       |   |   ├───Fragment
+|       |       |   |   ├───HttpCache
+|       |       |   |   ├───Log
+|       |       |   |   ├───Profiler
+|       |       |   |   └───Resources
+|       |       |   ├───mime
+|       |       |   |   ├───Crypto
+|       |       |   |   ├───DependencyInjection
+|       |       |   |   ├───Encoder
+|       |       |   |   ├───Exception
+|       |       |   |   ├───Header
+|       |       |   |   ├───Part
+|       |       |   |   |   └───Multipart
+|       |       |   |   ├───Resources
+|       |       |   |   |   └───bin
+|       |       |   |   └───Test
+|       |       |   |       └───Constraint
+|       |       |   ├───polyfill─ctype
+|       |       |   ├───polyfill─iconv
+|       |       |   |   └───Resources
+|       |       |   |       └───charset
+|       |       |   ├───polyfill─intl─grapheme
+|       |       |   ├───polyfill─intl─idn
+|       |       |   |   └───Resources
+|       |       |   |       └───unidata
+|       |       |   ├───polyfill─intl─normalizer
+|       |       |   |   └───Resources
+|       |       |   |       ├───stubs
+|       |       |   |       └───unidata
+|       |       |   ├───polyfill─mbstring
+|       |       |   |   └───Resources
+|       |       |   |       └───unidata
+|       |       |   ├───polyfill─php72
+|       |       |   ├───polyfill─php73
+|       |       |   |   └───Resources
+|       |       |   |       └───stubs
+|       |       |   ├───polyfill─php80
+|       |       |   |   └───Resources
+|       |       |   |       └───stubs
+|       |       |   ├───process
+|       |       |   |   ├───Exception
+|       |       |   |   └───Pipes
+|       |       |   ├───routing
+|       |       |   |   ├───Annotation
+|       |       |   |   ├───DependencyInjection
+|       |       |   |   ├───Exception
+|       |       |   |   ├───Generator
+|       |       |   |   |   └───Dumper
+|       |       |   |   ├───Loader
+|       |       |   |   |   ├───Configurator
+|       |       |   |   |   |   └───Traits
+|       |       |   |   |   └───schema
+|       |       |   |   |       └───routing
+|       |       |   |   └───Matcher
+|       |       |   |       └───Dumper
+|       |       |   ├───service─contracts
+|       |       |   |   ├───Attribute
+|       |       |   |   └───Test
+|       |       |   ├───string
+|       |       |   |   ├───Exception
+|       |       |   |   ├───Inflector
+|       |       |   |   ├───Resources
+|       |       |   |   |   └───data
+|       |       |   |   └───Slugger
+|       |       |   ├───translation
+|       |       |   |   ├───Catalogue
+|       |       |   |   ├───Command
+|       |       |   |   ├───DataCollector
+|       |       |   |   ├───DependencyInjection
+|       |       |   |   ├───Dumper
+|       |       |   |   ├───Exception
+|       |       |   |   ├───Extractor
+|       |       |   |   ├───Formatter
+|       |       |   |   ├───Loader
+|       |       |   |   ├───Reader
+|       |       |   |   ├───Resources
+|       |       |   |   |   ├───bin
+|       |       |   |   |   ├───data
+|       |       |   |   |   └───schemas
+|       |       |   |   ├───Util
+|       |       |   |   └───Writer
+|       |       |   ├───translation─contracts
+|       |       |   |   └───Test
+|       |       |   └───var─dumper
+|       |       |       ├───Caster
+|       |       |       ├───Cloner
+|       |       |       ├───Command
+|       |       |       |   └───Descriptor
+|       |       |       ├───Dumper
+|       |       |       |   └───ContextProvider
+|       |       |       ├───Exception
+|       |       |       ├───Resources
+|       |       |       |   ├───bin
+|       |       |       |   ├───css
+|       |       |       |   ├───functions
+|       |       |       |   └───js
+|       |       |       ├───Server
+|       |       |       └───Test
+|       |       ├───tijsverkoyen
+|       |       |   └───css─to─inline─styles
+|       |       |       └───src
+|       |       |           └───Css
+|       |       |               ├───Property
+|       |       |               └───Rule
+|       |       ├───tinymce
+|       |       |   └───tinymce
+|       |       |       ├───plugins
+|       |       |       |   ├───advlist
+|       |       |       |   ├───anchor
+|       |       |       |   ├───autolink
+|       |       |       |   ├───autoresize
+|       |       |       |   ├───autosave
+|       |       |       |   ├───bbcode
+|       |       |       |   ├───charmap
+|       |       |       |   ├───code
+|       |       |       |   ├───codesample
+|       |       |       |   |   └───css
+|       |       |       |   ├───colorpicker
+|       |       |       |   ├───contextmenu
+|       |       |       |   ├───directionality
+|       |       |       |   ├───emoticons
+|       |       |       |   |   └───img
+|       |       |       |   ├───fullpage
+|       |       |       |   ├───fullscreen
+|       |       |       |   ├───help
+|       |       |       |   |   └───img
+|       |       |       |   ├───hr
+|       |       |       |   ├───image
+|       |       |       |   ├───imagetools
+|       |       |       |   ├───importcss
+|       |       |       |   ├───insertdatetime
+|       |       |       |   ├───legacyoutput
+|       |       |       |   ├───link
+|       |       |       |   ├───lists
+|       |       |       |   ├───media
+|       |       |       |   ├───nonbreaking
+|       |       |       |   ├───noneditable
+|       |       |       |   ├───pagebreak
+|       |       |       |   ├───paste
+|       |       |       |   ├───preview
+|       |       |       |   ├───print
+|       |       |       |   ├───save
+|       |       |       |   ├───searchreplace
+|       |       |       |   ├───spellchecker
+|       |       |       |   ├───tabfocus
+|       |       |       |   ├───table
+|       |       |       |   ├───template
+|       |       |       |   ├───textcolor
+|       |       |       |   ├───textpattern
+|       |       |       |   ├───toc
+|       |       |       |   ├───visualblocks
+|       |       |       |   |   └───css
+|       |       |       |   ├───visualchars
+|       |       |       |   └───wordcount
+|       |       |       ├───skins
+|       |       |       |   └───lightgray
+|       |       |       |       ├───fonts
+|       |       |       |       └───img
+|       |       |       └───themes
+|       |       |           ├───inlite
+|       |       |           ├───mobile
+|       |       |           └───modern
+|       |       ├───vlucas
+|       |       |   └───phpdotenv
+|       |       |       └───src
+|       |       |           ├───Exception
+|       |       |           ├───Loader
+|       |       |           ├───Regex
+|       |       |           ├───Repository
+|       |       |           |   └───Adapter
+|       |       |           ├───Result
+|       |       |           └───Store
+|       |       |               └───File
+|       |       ├───voku
+|       |       |   └───portable─ascii
+|       |       |       ├───build
+|       |       |       |   └───docs
+|       |       |       └───src
+|       |       |           └───voku
+|       |       |               └───helper
+|       |       |                   └───data
+|       |       └───wikimedia
+|       |           └───less.php
+|       |               ├───bin
+|       |               └───lib
+|       |                   └───Less
+|       |                       ├───.easymin
+|       |                       ├───Exception
+|       |                       ├───Output
+|       |                       ├───SourceMap
+|       |                       ├───Tree
+|       |                       |   └───Mixin
+|       |                       └───Visitor
+|       ├───locale
+|       |   ├───ar_IQ
+|       |   ├───bs_BA
+|       |   ├───ca_ES
+|       |   ├───cs_CZ
+|       |   ├───da_DK
+|       |   ├───de_DE
+|       |   ├───el_GR
+|       |   ├───en_US
+|       |   ├───es_ES
+|       |   ├───eu_ES
+|       |   ├───fa_IR
+|       |   ├───fi_FI
+|       |   ├───fr_CA
+|       |   ├───fr_FR
+|       |   ├───gd_GB
+|       |   ├───gl_ES
+|       |   ├───he_IL
+|       |   ├───hi_IN
+|       |   ├───hr_HR
+|       |   ├───hu_HU
+|       |   ├───hy_AM
+|       |   ├───id_ID
+|       |   ├───it_IT
+|       |   ├───ja_JP
+|       |   ├───ku_IQ
+|       |   ├───mk_MK
+|       |   ├───nb_NO
+|       |   ├───nl_NL
+|       |   ├───pl_PL
+|       |   ├───pt_BR
+|       |   ├───pt_PT
+|       |   ├───ro_RO
+|       |   ├───ru_RU
+|       |   ├───sk_SK
+|       |   ├───sl_SI
+|       |   ├───sr_RS@cyrillic
+|       |   ├───sr_RS@latin
+|       |   ├───sv_SE
+|       |   ├───tr_TR
+|       |   ├───uk_UA
+|       |   ├───ur_PK
+|       |   ├───uz_UZ@latin
+|       |   ├───vi_VN
+|       |   └───zh_CN
+|       ├───pages
+|       |   ├───about
+|       |   ├───admin
+|       |   ├───announcement
+|       |   ├───authorDashboard
+|       |   ├───catalog
+|       |   ├───dashboard
+|       |   ├───help
+|       |   ├───index
+|       |   ├───install
+|       |   ├───libraryFiles
+|       |   ├───login
+|       |   ├───management
+|       |   ├───navigationMenu
+|       |   ├───notification
+|       |   ├───reviewer
+|       |   ├───sitemap
+|       |   ├───stats
+|       |   ├───submission
+|       |   ├───submissions
+|       |   ├───user
+|       |   └───workflow
+|       ├───plugins
+|       |   ├───generic
+|       |   |   ├───acron
+|       |   |   |   └───locale
+|       |   |   |       ├───ar_IQ
+|       |   |   |       ├───bs_BA
+|       |   |   |       ├───ca_ES
+|       |   |   |       ├───cs_CZ
+|       |   |   |       ├───da_DK
+|       |   |   |       ├───de_DE
+|       |   |   |       ├───el_GR
+|       |   |   |       ├───en_US
+|       |   |   |       ├───es_ES
+|       |   |   |       ├───eu_ES
+|       |   |   |       ├───fa_IR
+|       |   |   |       ├───fi_FI
+|       |   |   |       ├───fr_CA
+|       |   |   |       ├───fr_FR
+|       |   |   |       ├───gl_ES
+|       |   |   |       ├───hu_HU
+|       |   |   |       ├───id_ID
+|       |   |   |       ├───it_IT
+|       |   |   |       ├───ku_IQ
+|       |   |   |       ├───mk_MK
+|       |   |   |       ├───nb_NO
+|       |   |   |       ├───nl_NL
+|       |   |   |       ├───pl_PL
+|       |   |   |       ├───pt_BR
+|       |   |   |       ├───pt_PT
+|       |   |   |       ├───ru_RU
+|       |   |   |       ├───sl_SI
+|       |   |   |       ├───sv_SE
+|       |   |   |       ├───tr_TR
+|       |   |   |       ├───uk_UA
+|       |   |   |       └───vi_VN
+|       |   |   └───usageEvent
+|       |   |       └───locale
+|       |   |           ├───ar_IQ
+|       |   |           ├───bs_BA
+|       |   |           ├───ca_ES
+|       |   |           ├───cs_CZ
+|       |   |           ├───da_DK
+|       |   |           ├───de_DE
+|       |   |           ├───el_GR
+|       |   |           ├───en_US
+|       |   |           ├───es_ES
+|       |   |           ├───fa_IR
+|       |   |           ├───fi_FI
+|       |   |           ├───fr_CA
+|       |   |           ├───fr_FR
+|       |   |           ├───gl_ES
+|       |   |           ├───hu_HU
+|       |   |           ├───id_ID
+|       |   |           ├───ku_IQ
+|       |   |           ├───mk_MK
+|       |   |           ├───nb_NO
+|       |   |           ├───nl_NL
+|       |   |           ├───pl_PL
+|       |   |           ├───pt_BR
+|       |   |           ├───pt_PT
+|       |   |           ├───ru_RU
+|       |   |           ├───sl_SI
+|       |   |           ├───sv_SE
+|       |   |           ├───tr_TR
+|       |   |           ├───uk_UA
+|       |   |           └───vi_VN
+|       |   ├───importexport
+|       |   |   ├───native
+|       |   |   |   └───filter
+|       |   |   └───users
+|       |   |       └───filter
+|       |   ├───metadata
+|       |   |   └───dc11
+|       |   |       ├───locale
+|       |   |       |   ├───ar_IQ
+|       |   |       |   ├───ca_ES
+|       |   |       |   ├───cs_CZ
+|       |   |       |   ├───da_DK
+|       |   |       |   ├───de_DE
+|       |   |       |   ├───el_GR
+|       |   |       |   ├───en_US
+|       |   |       |   ├───es_ES
+|       |   |       |   ├───fa_IR
+|       |   |       |   ├───fi_FI
+|       |   |       |   ├───fr_CA
+|       |   |       |   ├───fr_FR
+|       |   |       |   ├───gl_ES
+|       |   |       |   ├───hu_HU
+|       |   |       |   ├───id_ID
+|       |   |       |   ├───it_IT
+|       |   |       |   ├───ku_IQ
+|       |   |       |   ├───mk_MK
+|       |   |       |   ├───nb_NO
+|       |   |       |   ├───nl_NL
+|       |   |       |   ├───pl_PL
+|       |   |       |   ├───pt_BR
+|       |   |       |   ├───pt_PT
+|       |   |       |   ├───ru_RU
+|       |   |       |   ├───sl_SI
+|       |   |       |   ├───sr_SR
+|       |   |       |   ├───sv_SE
+|       |   |       |   ├───tr_TR
+|       |   |       |   ├───uk_UA
+|       |   |       |   └───vi_VN
+|       |   |       └───schema
+|       |   └───oaiMetadataFormats
+|       |       └───dc
+|       |           └───locale
+|       |               ├───ar_IQ
+|       |               ├───ca_ES
+|       |               ├───cs_CZ
+|       |               ├───da_DK
+|       |               ├───de_DE
+|       |               ├───el_GR
+|       |               ├───en_US
+|       |               ├───es_ES
+|       |               ├───fa_IR
+|       |               ├───fi_FI
+|       |               ├───fr_CA
+|       |               ├───fr_FR
+|       |               ├───gl_ES
+|       |               ├───hu_HU
+|       |               ├───id_ID
+|       |               ├───it_IT
+|       |               ├───ku_IQ
+|       |               ├───mk_MK
+|       |               ├───nb_NO
+|       |               ├───nl_NL
+|       |               ├───pl_PL
+|       |               ├───pt_BR
+|       |               ├───pt_PT
+|       |               ├───ru_RU
+|       |               ├───sl_SI
+|       |               ├───sr_SR
+|       |               ├───sv_SE
+|       |               ├───tr_TR
+|       |               ├───uk_UA
+|       |               ├───vi_VN
+|       |               └───zh_CN
+|       ├───registry
+|       ├───schemas
+|       ├───styles
+|       |   ├───controllers
+|       |   |   └───grid
+|       |   |       └───files
+|       |   ├───fontawesome
+|       |   ├───fonts
+|       |   ├───form
+|       |   └───pages
+|       ├───templates
+|       |   ├───admin
+|       |   ├───authorDashboard
+|       |   ├───common
+|       |   ├───controllers
+|       |   |   ├───api
+|       |   |   |   └───file
+|       |   |   ├───grid
+|       |   |   |   ├───announcements
+|       |   |   |   |   └───form
+|       |   |   |   ├───common
+|       |   |   |   |   └───cell
+|       |   |   |   ├───eventLog
+|       |   |   |   ├───feature
+|       |   |   |   ├───files
+|       |   |   |   |   ├───copyedit
+|       |   |   |   |   ├───final
+|       |   |   |   |   ├───proof
+|       |   |   |   |   ├───query
+|       |   |   |   |   ├───review
+|       |   |   |   |   └───submissionDocuments
+|       |   |   |   |       └───form
+|       |   |   |   ├───languages
+|       |   |   |   ├───navigationMenus
+|       |   |   |   |   └───form
+|       |   |   |   ├───plugins
+|       |   |   |   |   └───form
+|       |   |   |   ├───queries
+|       |   |   |   |   └───form
+|       |   |   |   ├───settings
+|       |   |   |   |   ├───category
+|       |   |   |   |   |   └───form
+|       |   |   |   |   ├───genre
+|       |   |   |   |   |   └───form
+|       |   |   |   |   ├───library
+|       |   |   |   |   |   └───form
+|       |   |   |   |   ├───reviewForms
+|       |   |   |   |   ├───roles
+|       |   |   |   |   |   └───form
+|       |   |   |   |   ├───submissionChecklist
+|       |   |   |   |   |   └───form
+|       |   |   |   |   └───user
+|       |   |   |   |       └───form
+|       |   |   |   ├───tasks
+|       |   |   |   └───users
+|       |   |   |       ├───author
+|       |   |   |       |   └───form
+|       |   |   |       ├───exportableUsers
+|       |   |   |       ├───reviewer
+|       |   |   |       |   └───form
+|       |   |   |       ├───stageParticipant
+|       |   |   |       |   └───form
+|       |   |   |       └───userSelect
+|       |   |   ├───informationCenter
+|       |   |   ├───listbuilder
+|       |   |   ├───modals
+|       |   |   |   ├───documentLibrary
+|       |   |   |   ├───editorDecision
+|       |   |   |   |   └───form
+|       |   |   |   ├───publish
+|       |   |   |   └───submission
+|       |   |   ├───notification
+|       |   |   ├───page
+|       |   |   ├───statistics
+|       |   |   |   └───form
+|       |   |   ├───tab
+|       |   |   |   ├───authorDashboard
+|       |   |   |   └───workflow
+|       |   |   └───wizard
+|       |   |       └───fileUpload
+|       |   |           └───form
+|       |   ├───dashboard
+|       |   ├───form
+|       |   ├───frontend
+|       |   |   ├───components
+|       |   |   |   └───navigationMenus
+|       |   |   ├───objects
+|       |   |   └───pages
+|       |   ├───images
+|       |   |   ├───icons
+|       |   |   └───structure
+|       |   |       └───superfish
+|       |   ├───install
+|       |   ├───layouts
+|       |   ├───linkAction
+|       |   ├───management
+|       |   |   └───tools
+|       |   ├───manager
+|       |   |   └───reviewForms
+|       |   ├───reviewer
+|       |   |   └───review
+|       |   |       └───modal
+|       |   ├───stats
+|       |   ├───submission
+|       |   |   └───form
+|       |   ├───user
+|       |   └───workflow
+|       ├───tools
+|       └───xml
+|           └───schema
+├───locale
+|   ├───ar_IQ
+|   ├───bs_BA
+|   ├───ca_ES
+|   ├───cs_CZ
+|   ├───da_DK
+|   ├───de_DE
+|   ├───el_GR
+|   ├───en_US
+|   ├───es_ES
+|   ├───eu_ES
+|   ├───fa_IR
+|   ├───fi_FI
+|   ├───fr_CA
+|   ├───fr_FR
+|   ├───gd_GB
+|   ├───he_IL
+|   ├───hi_IN
+|   ├───hr_HR
+|   ├───hu_HU
+|   ├───hy_AM
+|   ├───id_ID
+|   ├───it_IT
+|   ├───ja_JP
+|   ├───ka_GE
+|   ├───kk_KZ
+|   ├───ko_KR
+|   ├───ku_IQ
+|   ├───mk_MK
+|   ├───mn_MN
+|   ├───nb_NO
+|   ├───nl_NL
+|   ├───pl_PL
+|   ├───pt_BR
+|   ├───pt_PT
+|   ├───ro_RO
+|   ├───ru_RU
+|   ├───sk_SK
+|   ├───sl_SI
+|   ├───sr_RS@cyrillic
+|   ├───sr_RS@latin
+|   ├───sv_SE
+|   ├───tr_TR
+|   ├───uk_UA
+|   ├───ur_PK
+|   ├───uz_UZ@cyrillic
+|   ├───uz_UZ@latin
+|   ├───vi_VN
+|   └───zh_CN
+├───pages
+|   ├───about
+|   ├───article
+|   ├───authorDashboard
+|   ├───catalog
+|   ├───gateway
+|   ├───index
+|   ├───information
+|   ├───issue
+|   ├───manageIssues
+|   ├───management
+|   ├───manager
+|   ├───oai
+|   ├───payment
+|   ├───payments
+|   ├───reviewer
+|   ├───search
+|   ├───sitemap
+|   ├───skzDashboard
+|   ├───stats
+|   ├───submission
+|   ├───user
+|   └───workflow
+├───plugins
+|   ├───blocks
+|   |   ├───browse
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───el_GR
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───gl_ES
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───ja_JP
+|   |   |   |   ├───mk_MK
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───ro_RO
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sl_SI
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   └───vi_VN
+|   |   |   └───templates
+|   |   ├───developedBy
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───bs_BA
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───el_GR
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───fa_IR
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───gd_GB
+|   |   |   |   ├───he_IL
+|   |   |   |   ├───hr_HR
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───ja_JP
+|   |   |   |   ├───ka
+|   |   |   |   ├───ka_GE
+|   |   |   |   ├───ko_KR
+|   |   |   |   ├───ku_IQ
+|   |   |   |   ├───mk_MK
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pl_PL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sk_SK
+|   |   |   |   ├───sl_SI
+|   |   |   |   ├───sr_RS@latin
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   ├───uz_UZ@cyrillic
+|   |   |   |   ├───uz_UZ@latin
+|   |   |   |   └───vi_VN
+|   |   |   └───templates
+|   |   ├───information
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───bs_BA
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───el_GR
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───eu_ES
+|   |   |   |   ├───fa_IR
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───gd_GB
+|   |   |   |   ├───he_IL
+|   |   |   |   ├───hr_HR
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───ja_JP
+|   |   |   |   ├───ka
+|   |   |   |   ├───ku_IQ
+|   |   |   |   ├───mk_MK
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pl_PL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sk_SK
+|   |   |   |   ├───sl_SI
+|   |   |   |   ├───sr_RS@latin
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   ├───uz_UZ@cyrillic
+|   |   |   |   ├───uz_UZ@latin
+|   |   |   |   ├───vi_VN
+|   |   |   |   └───zh_CN
+|   |   |   └───templates
+|   |   ├───languageToggle
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───bs_BA
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───el_GR
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───eu_ES
+|   |   |   |   ├───fa_IR
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───gd_GB
+|   |   |   |   ├───he_IL
+|   |   |   |   ├───hr_HR
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───ja_JP
+|   |   |   |   ├───ka
+|   |   |   |   ├───ku_IQ
+|   |   |   |   ├───mk_MK
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pl_PL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ro_RO
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sk_SK
+|   |   |   |   ├───sl_SI
+|   |   |   |   ├───sr_RS@latin
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   ├───uz_UZ@cyrillic
+|   |   |   |   ├───uz_UZ@latin
+|   |   |   |   ├───vi_VN
+|   |   |   |   └───zh_CN
+|   |   |   └───templates
+|   |   ├───makeSubmission
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───bs_BA
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───el_GR
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───fa_IR
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───ja_JP
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ro_RO
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sl_SI
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   └───vi_VN
+|   |   |   └───templates
+|   |   └───subscription
+|   |       ├───locale
+|   |       |   ├───ar_IQ
+|   |       |   ├───ca_ES
+|   |       |   ├───cs_CZ
+|   |       |   ├───da_DK
+|   |       |   ├───de_DE
+|   |       |   ├───el_GR
+|   |       |   ├───en_US
+|   |       |   ├───es_AR
+|   |       |   ├───es_ES
+|   |       |   ├───eu_ES
+|   |       |   ├───fa_IR
+|   |       |   ├───fi_FI
+|   |       |   ├───fr_CA
+|   |       |   ├───fr_FR
+|   |       |   ├───gd_GB
+|   |       |   ├───he_IL
+|   |       |   ├───hr_HR
+|   |       |   ├───hu_HU
+|   |       |   ├───id_ID
+|   |       |   ├───it_IT
+|   |       |   ├───ja_JP
+|   |       |   ├───ka
+|   |       |   ├───ka_GE
+|   |       |   ├───ku_IQ
+|   |       |   ├───mk_MK
+|   |       |   ├───nb_NO
+|   |       |   ├───nl_NL
+|   |       |   ├───pl_PL
+|   |       |   ├───pt_BR
+|   |       |   ├───pt_PT
+|   |       |   ├───ro_RO
+|   |       |   ├───ru_RU
+|   |       |   ├───sk_SK
+|   |       |   ├───sl_SI
+|   |       |   ├───sr_RS@latin
+|   |       |   ├───sv_SE
+|   |       |   ├───tr_TR
+|   |       |   ├───uk_UA
+|   |       |   ├───uz_UZ@cyrillic
+|   |       |   ├───uz_UZ@latin
+|   |       |   ├───vi_VN
+|   |       |   └───zh_CN
+|   |       └───templates
+|   ├───gateways
+|   |   └───resolver
+|   |       └───locale
+|   |           ├───ar_IQ
+|   |           ├───ca_ES
+|   |           ├───cs_CZ
+|   |           ├───da_DK
+|   |           ├───de_DE
+|   |           ├───en_US
+|   |           ├───es_ES
+|   |           ├───eu_ES
+|   |           ├───fa_IR
+|   |           ├───fi_FI
+|   |           ├───fr_CA
+|   |           ├───fr_FR
+|   |           ├───hr_HR
+|   |           ├───hu_HU
+|   |           ├───id_ID
+|   |           ├───it_IT
+|   |           ├───ka_GE
+|   |           ├───ku_IQ
+|   |           ├───mk_MK
+|   |           ├───nb_NO
+|   |           ├───nl_NL
+|   |           ├───pl_PL
+|   |           ├───pt_BR
+|   |           ├───pt_PT
+|   |           ├───ru_RU
+|   |           ├───sk_SK
+|   |           ├───sl_SI
+|   |           ├───sr_SR
+|   |           ├───sv_SE
+|   |           ├───tr_TR
+|   |           ├───uk_UA
+|   |           ├───uz_UZ@cyrillic
+|   |           ├───uz_UZ@latin
+|   |           ├───vi_VN
+|   |           └───zh_CN
+|   ├───generic
+|   |   ├───acron
+|   |   ├───announcementFeed
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───eu_ES
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───gd_GB
+|   |   |   |   ├───hr_HR
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───ka_GE
+|   |   |   |   ├───ku_IQ
+|   |   |   |   ├───mk_MK
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pl_PL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sk_SK
+|   |   |   |   ├───sr_SR
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   ├───uz_UZ@cyrillic
+|   |   |   |   ├───uz_UZ@latin
+|   |   |   |   ├───vi_VN
+|   |   |   |   └───zh_CN
+|   |   |   └───templates
+|   |   ├───citationStyleLanguage
+|   |   |   ├───citation─styles
+|   |   |   ├───js
+|   |   |   ├───lib
+|   |   |   |   └───vendor
+|   |   |   |       ├───citation─style─language
+|   |   |   |       |   └───locales
+|   |   |   |       |       ├───.github
+|   |   |   |       |       └───spec
+|   |   |   |       ├───composer
+|   |   |   |       ├───myclabs
+|   |   |   |       |   └───php─enum
+|   |   |   |       |       └───src
+|   |   |   |       |           └───PHPUnit
+|   |   |   |       ├───seboettg
+|   |   |   |       |   ├───citeproc─php
+|   |   |   |       |   |   ├───.github
+|   |   |   |       |   |   |   └───workflows
+|   |   |   |       |   |   └───src
+|   |   |   |       |   |       ├───Constraint
+|   |   |   |       |   |       ├───Data
+|   |   |   |       |   |       ├───Exception
+|   |   |   |       |   |       ├───Locale
+|   |   |   |       |   |       ├───Rendering
+|   |   |   |       |   |       |   ├───Choose
+|   |   |   |       |   |       |   ├───Date
+|   |   |   |       |   |       |   |   └───DateRange
+|   |   |   |       |   |       |   └───Name
+|   |   |   |       |   |       ├───Root
+|   |   |   |       |   |       ├───Style
+|   |   |   |       |   |       |   ├───Options
+|   |   |   |       |   |       |   └───Sort
+|   |   |   |       |   |       ├───Styles
+|   |   |   |       |   |       |   └───Css
+|   |   |   |       |   |       ├───Terms
+|   |   |   |       |   |       └───Util
+|   |   |   |       |   └───collection
+|   |   |   |       |       └───src
+|   |   |   |       |           ├───ArrayList
+|   |   |   |       |           ├───Comparable
+|   |   |   |       |           ├───Queue
+|   |   |   |       |           └───Stack
+|   |   |   |       └───symfony
+|   |   |   |           └───polyfill─mbstring
+|   |   |   |               └───Resources
+|   |   |   |                   └───unidata
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───bg_BG
+|   |   |   |   ├───bs_BA
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───el_GR
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───ko_KR
+|   |   |   |   ├───mk_MK
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pl_PL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ro_RO
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sl_SI
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   └───vi_VN
+|   |   |   ├───pages
+|   |   |   └───templates
+|   |   |       └───citation─styles
+|   |   ├───customBlockManager
+|   |   |   ├───controllers
+|   |   |   |   └───grid
+|   |   |   |       └───form
+|   |   |   ├───cypress
+|   |   |   |   └───tests
+|   |   |   |       └───functional
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───bg_BG
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───el_GR
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───fa_IR
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───ja_JP
+|   |   |   |   ├───ko_KR
+|   |   |   |   ├───mk_MK
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ro_RO
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sl_SI
+|   |   |   |   ├───sr_RS@latin
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   ├───vi_VN
+|   |   |   |   └───zh_CN
+|   |   |   └───templates
+|   |   ├───driver
+|   |   |   └───locale
+|   |   |       ├───ar_IQ
+|   |   |       ├───ca_ES
+|   |   |       ├───cs_CZ
+|   |   |       ├───da_DK
+|   |   |       ├───de_DE
+|   |   |       ├───en_US
+|   |   |       ├───es_ES
+|   |   |       ├───fa_IR
+|   |   |       ├───fi_FI
+|   |   |       ├───fr_CA
+|   |   |       ├───fr_FR
+|   |   |       ├───hu_HU
+|   |   |       ├───id_ID
+|   |   |       ├───it_IT
+|   |   |       ├───ka_GE
+|   |   |       ├───ku_IQ
+|   |   |       ├───mk_MK
+|   |   |       ├───nb_NO
+|   |   |       ├───nl_NL
+|   |   |       ├───pl_PL
+|   |   |       ├───pt_BR
+|   |   |       ├───pt_PT
+|   |   |       ├───ru_RU
+|   |   |       ├───sk_SK
+|   |   |       ├───sl_SI
+|   |   |       ├───sr_SR
+|   |   |       ├───sv_SE
+|   |   |       ├───tr_TR
+|   |   |       ├───uk_UA
+|   |   |       ├───uz_UZ@cyrillic
+|   |   |       ├───uz_UZ@latin
+|   |   |       └───vi_VN
+|   |   ├───dublinCoreMeta
+|   |   |   └───locale
+|   |   |       ├───ar_IQ
+|   |   |       ├───ca_ES
+|   |   |       ├───cs_CZ
+|   |   |       ├───da_DK
+|   |   |       ├───de_DE
+|   |   |       ├───el_GR
+|   |   |       ├───en_US
+|   |   |       ├───es_ES
+|   |   |       ├───fa_IR
+|   |   |       ├───fi_FI
+|   |   |       ├───fr_CA
+|   |   |       ├───fr_FR
+|   |   |       ├───gd_GB
+|   |   |       ├───hu_HU
+|   |   |       ├───id_ID
+|   |   |       ├───it_IT
+|   |   |       ├───ka_GE
+|   |   |       ├───ku_IQ
+|   |   |       ├───mk_MK
+|   |   |       ├───nb_NO
+|   |   |       ├───nl_NL
+|   |   |       ├───pl_PL
+|   |   |       ├───pt_BR
+|   |   |       ├───pt_PT
+|   |   |       ├───ru_RU
+|   |   |       ├───sk_SK
+|   |   |       ├───sl_SI
+|   |   |       ├───sv_SE
+|   |   |       ├───tr_TR
+|   |   |       ├───uk_UA
+|   |   |       ├───uz_UZ@cyrillic
+|   |   |       ├───uz_UZ@latin
+|   |   |       ├───vi_VN
+|   |   |       └───zh_CN
+|   |   ├───googleAnalytics
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───bg_BG
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───el_GR
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───eu_ES
+|   |   |   |   ├───fa_IR
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───hr_HR
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───ja_JP
+|   |   |   |   ├───mk_MK
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ro_RO
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sl_SI
+|   |   |   |   ├───sr_RS@latin
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   ├───vi_VN
+|   |   |   |   └───zh_CN
+|   |   |   └───templates
+|   |   ├───googleScholar
+|   |   |   └───locale
+|   |   |       ├───ar_IQ
+|   |   |       ├───ca_ES
+|   |   |       ├───cs_CZ
+|   |   |       ├───da_DK
+|   |   |       ├───de_DE
+|   |   |       ├───el_GR
+|   |   |       ├───en_US
+|   |   |       ├───es_ES
+|   |   |       ├───fa_IR
+|   |   |       ├───fi_FI
+|   |   |       ├───fr_CA
+|   |   |       ├───fr_FR
+|   |   |       ├───hu_HU
+|   |   |       ├───id_ID
+|   |   |       ├───it_IT
+|   |   |       ├───mk_MK
+|   |   |       ├───nb_NO
+|   |   |       ├───nl_NL
+|   |   |       ├───pl_PL
+|   |   |       ├───pt_BR
+|   |   |       ├───pt_PT
+|   |   |       ├───ru_RU
+|   |   |       ├───sl_SI
+|   |   |       ├───sv_SE
+|   |   |       ├───tr_TR
+|   |   |       ├───uk_UA
+|   |   |       └───vi_VN
+|   |   ├───htmlArticleGalley
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───fa_IR
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───ka_GE
+|   |   |   |   ├───ku_IQ
+|   |   |   |   ├───mk_MK
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pl_PL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sk_SK
+|   |   |   |   ├───sl_SI
+|   |   |   |   ├───sr_RS@latin
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   ├───uz_UZ@cyrillic
+|   |   |   |   ├───uz_UZ@latin
+|   |   |   |   └───vi_VN
+|   |   |   └───templates
+|   |   ├───lensGalley
+|   |   |   ├───lib
+|   |   |   |   └───lens
+|   |   |   |       └───lib
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───bg_BG
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───el_GR
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sr_RS@latin
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   └───vi_VN
+|   |   |   └───templates
+|   |   ├───orcidProfile
+|   |   |   ├───.github
+|   |   |   |   └───ISSUE_TEMPLATE
+|   |   |   ├───css
+|   |   |   ├───cypress
+|   |   |   |   └───tests
+|   |   |   |       └───functional
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───bg_BG
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───el_GR
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───ku_IQ
+|   |   |   |   ├───mk_MK
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pl_PL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sl_SI
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   └───vi_VN
+|   |   |   ├───pages
+|   |   |   └───templates
+|   |   |       └───images
+|   |   ├───pdfJsViewer
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───bg_BG
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───el_GR
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sr_RS@latin
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   ├───vi_VN
+|   |   |   |   └───zh_CN
+|   |   |   ├───pdf.js
+|   |   |   |   ├───build
+|   |   |   |   └───web
+|   |   |   |       ├───cmaps
+|   |   |   |       ├───images
+|   |   |   |       └───locale
+|   |   |   |           ├───ach
+|   |   |   |           ├───af
+|   |   |   |           ├───an
+|   |   |   |           ├───ar
+|   |   |   |           ├───ast
+|   |   |   |           ├───az
+|   |   |   |           ├───be
+|   |   |   |           ├───bg
+|   |   |   |           ├───bn
+|   |   |   |           ├───bo
+|   |   |   |           ├───br
+|   |   |   |           ├───brx
+|   |   |   |           ├───bs
+|   |   |   |           ├───ca
+|   |   |   |           ├───cak
+|   |   |   |           ├───ckb
+|   |   |   |           ├───cs
+|   |   |   |           ├───cy
+|   |   |   |           ├───da
+|   |   |   |           ├───de
+|   |   |   |           ├───dsb
+|   |   |   |           ├───el
+|   |   |   |           ├───en─CA
+|   |   |   |           ├───en─GB
+|   |   |   |           ├───en─US
+|   |   |   |           ├───eo
+|   |   |   |           ├───es─AR
+|   |   |   |           ├───es─CL
+|   |   |   |           ├───es─ES
+|   |   |   |           ├───es─MX
+|   |   |   |           ├───et
+|   |   |   |           ├───eu
+|   |   |   |           ├───fa
+|   |   |   |           ├───ff
+|   |   |   |           ├───fi
+|   |   |   |           ├───fr
+|   |   |   |           ├───fy─NL
+|   |   |   |           ├───ga─IE
+|   |   |   |           ├───gd
+|   |   |   |           ├───gl
+|   |   |   |           ├───gn
+|   |   |   |           ├───gu─IN
+|   |   |   |           ├───he
+|   |   |   |           ├───hi─IN
+|   |   |   |           ├───hr
+|   |   |   |           ├───hsb
+|   |   |   |           ├───hu
+|   |   |   |           ├───hy─AM
+|   |   |   |           ├───hye
+|   |   |   |           ├───ia
+|   |   |   |           ├───id
+|   |   |   |           ├───is
+|   |   |   |           ├───it
+|   |   |   |           ├───ja
+|   |   |   |           ├───ka
+|   |   |   |           ├───kab
+|   |   |   |           ├───kk
+|   |   |   |           ├───km
+|   |   |   |           ├───kn
+|   |   |   |           ├───ko
+|   |   |   |           ├───lij
+|   |   |   |           ├───lo
+|   |   |   |           ├───lt
+|   |   |   |           ├───ltg
+|   |   |   |           ├───lv
+|   |   |   |           ├───meh
+|   |   |   |           ├───mk
+|   |   |   |           ├───mr
+|   |   |   |           ├───ms
+|   |   |   |           ├───my
+|   |   |   |           ├───nb─NO
+|   |   |   |           ├───ne─NP
+|   |   |   |           ├───nl
+|   |   |   |           ├───nn─NO
+|   |   |   |           ├───oc
+|   |   |   |           ├───pa─IN
+|   |   |   |           ├───pl
+|   |   |   |           ├───pt─BR
+|   |   |   |           ├───pt─PT
+|   |   |   |           ├───rm
+|   |   |   |           ├───ro
+|   |   |   |           ├───ru
+|   |   |   |           ├───scn
+|   |   |   |           ├───si
+|   |   |   |           ├───sk
+|   |   |   |           ├───sl
+|   |   |   |           ├───son
+|   |   |   |           ├───sq
+|   |   |   |           ├───sr
+|   |   |   |           ├───sv─SE
+|   |   |   |           ├───szl
+|   |   |   |           ├───ta
+|   |   |   |           ├───te
+|   |   |   |           ├───th
+|   |   |   |           ├───tl
+|   |   |   |           ├───tr
+|   |   |   |           ├───trs
+|   |   |   |           ├───uk
+|   |   |   |           ├───ur
+|   |   |   |           ├───uz
+|   |   |   |           ├───vi
+|   |   |   |           ├───wo
+|   |   |   |           ├───xh
+|   |   |   |           ├───zh─CN
+|   |   |   |           └───zh─TW
+|   |   |   └───templates
+|   |   ├───recommendByAuthor
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───fa_IR
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───gd_GB
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───ka_GE
+|   |   |   |   ├───ku_IQ
+|   |   |   |   ├───mk_MK
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pl_PL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ro_RO
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sk_SK
+|   |   |   |   ├───sl_SI
+|   |   |   |   ├───sr_RS@latin
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   ├───uz_UZ@cyrillic
+|   |   |   |   ├───uz_UZ@latin
+|   |   |   |   └───vi_VN
+|   |   |   └───templates
+|   |   ├───recommendBySimilarity
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───gd_GB
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───ka_GE
+|   |   |   |   ├───ku_IQ
+|   |   |   |   ├───mk_MK
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pl_PL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ro_RO
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sk_SK
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   ├───uz_UZ@cyrillic
+|   |   |   |   ├───uz_UZ@latin
+|   |   |   |   └───vi_VN
+|   |   |   └───templates
+|   |   ├───skzAgents
+|   |   |   ├───classes
+|   |   |   ├───locale
+|   |   |   |   └───en_US
+|   |   |   ├───pages
+|   |   |   ├───templates
+|   |   |   └───tests
+|   |   ├───staticPages
+|   |   |   ├───classes
+|   |   |   ├───controllers
+|   |   |   |   └───grid
+|   |   |   |       └───form
+|   |   |   ├───cypress
+|   |   |   |   └───tests
+|   |   |   |       └───functional
+|   |   |   ├───js
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───bg_BG
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───el_GR
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───fa_IR
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───ja_JP
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ro_RO
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sl_SI
+|   |   |   |   ├───sr_RS@latin
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   ├───vi_VN
+|   |   |   |   └───zh_CN
+|   |   |   └───templates
+|   |   ├───tinymce
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───bg_BG
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───el_GR
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───eu_ES
+|   |   |   |   ├───fa_IR
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───hr_HR
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───ja_JP
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sl_SI
+|   |   |   |   ├───sr_RS@latin
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   └───vi_VN
+|   |   |   ├───plugins
+|   |   |   |   ├───pkpTags
+|   |   |   |   |   └───styles
+|   |   |   |   └───pkpWordcount
+|   |   |   |       └───styles
+|   |   |   └───styles
+|   |   ├───usageEvent
+|   |   |   └───locale
+|   |   |       ├───ar_IQ
+|   |   |       ├───ca_ES
+|   |   |       ├───cs_CZ
+|   |   |       ├───da_DK
+|   |   |       ├───de_DE
+|   |   |       ├───en_US
+|   |   |       ├───es_ES
+|   |   |       ├───fa_IR
+|   |   |       ├───fi_FI
+|   |   |       ├───fr_CA
+|   |   |       ├───fr_FR
+|   |   |       ├───hu_HU
+|   |   |       ├───id_ID
+|   |   |       ├───it_IT
+|   |   |       ├───ka_GE
+|   |   |       ├───ku_IQ
+|   |   |       ├───mk_MK
+|   |   |       ├───nb_NO
+|   |   |       ├───nl_NL
+|   |   |       ├───pl_PL
+|   |   |       ├───pt_BR
+|   |   |       ├───pt_PT
+|   |   |       ├───ru_RU
+|   |   |       ├───sk_SK
+|   |   |       ├───sl_SI
+|   |   |       ├───sr_RS@latin
+|   |   |       ├───sv_SE
+|   |   |       ├───tr_TR
+|   |   |       ├───uk_UA
+|   |   |       ├───uz_UZ@cyrillic
+|   |   |       ├───uz_UZ@latin
+|   |   |       └───vi_VN
+|   |   ├───usageStats
+|   |   |   ├───js
+|   |   |   ├───lib
+|   |   |   |   └───geoIp
+|   |   |   |       ├───admin
+|   |   |   |       └───timezone
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───bg_BG
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───el_GR
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───fa_IR
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───pl_PL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sl_SI
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   └───vi_VN
+|   |   |   └───templates
+|   |   └───webFeed
+|   |       ├───locale
+|   |       |   ├───ar_IQ
+|   |       |   ├───ca_ES
+|   |       |   ├───cs_CZ
+|   |       |   ├───da_DK
+|   |       |   ├───de_DE
+|   |       |   ├───en_US
+|   |       |   ├───es_ES
+|   |       |   ├───eu_ES
+|   |       |   ├───fa_IR
+|   |       |   ├───fi_FI
+|   |       |   ├───fr_CA
+|   |       |   ├───fr_FR
+|   |       |   ├───gd_GB
+|   |       |   ├───hr_HR
+|   |       |   ├───hu_HU
+|   |       |   ├───id_ID
+|   |       |   ├───it_IT
+|   |       |   ├───ka_GE
+|   |       |   ├───ku_IQ
+|   |       |   ├───mk_MK
+|   |       |   ├───nb_NO
+|   |       |   ├───nl_NL
+|   |       |   ├───pl_PL
+|   |       |   ├───pt_BR
+|   |       |   ├───pt_PT
+|   |       |   ├───ru_RU
+|   |       |   ├───sk_SK
+|   |       |   ├───sl_SI
+|   |       |   ├───sr_RS@latin
+|   |       |   ├───sv_SE
+|   |       |   ├───tr_TR
+|   |       |   ├───uk_UA
+|   |       |   ├───uz_UZ@cyrillic
+|   |       |   ├───uz_UZ@latin
+|   |       |   ├───vi_VN
+|   |       |   └───zh_CN
+|   |       └───templates
+|   ├───importexport
+|   |   ├───crossref
+|   |   |   ├───classes
+|   |   |   |   └───form
+|   |   |   ├───filter
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───el_GR
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───eu_ES
+|   |   |   |   ├───fa_IR
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───hr_HR
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───ka_GE
+|   |   |   |   ├───ku_IQ
+|   |   |   |   ├───mk_MK
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pl_PL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ro_RO
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sk_SK
+|   |   |   |   ├───sl_SI
+|   |   |   |   ├───sr_RS@latin
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   ├───uz_UZ@cyrillic
+|   |   |   |   ├───uz_UZ@latin
+|   |   |   |   ├───vi_VN
+|   |   |   |   └───zh_CN
+|   |   |   └───templates
+|   |   ├───datacite
+|   |   |   ├───classes
+|   |   |   |   └───form
+|   |   |   ├───filter
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───fa_IR
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───ka_GE
+|   |   |   |   ├───ku_IQ
+|   |   |   |   ├───mk_MK
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pl_PL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sk_SK
+|   |   |   |   ├───sl_SI
+|   |   |   |   ├───sr_RS@latin
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   ├───uz_UZ@cyrillic
+|   |   |   |   ├───uz_UZ@latin
+|   |   |   |   ├───vi_VN
+|   |   |   |   └───zh_CN
+|   |   |   └───templates
+|   |   ├───doaj
+|   |   |   ├───classes
+|   |   |   |   └───form
+|   |   |   ├───filter
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───eu_ES
+|   |   |   |   ├───fa_IR
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───hr_HR
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───ka_GE
+|   |   |   |   ├───ku_IQ
+|   |   |   |   ├───mk_MK
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pl_PL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ro_RO
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sk_SK
+|   |   |   |   ├───sl_SI
+|   |   |   |   ├───sr_RS@latin
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   ├───uz_UZ@cyrillic
+|   |   |   |   ├───uz_UZ@latin
+|   |   |   |   ├───vi_VN
+|   |   |   |   └───zh_CN
+|   |   |   └───templates
+|   |   ├───native
+|   |   |   ├───filter
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───fa_IR
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───ka_GE
+|   |   |   |   ├───ku_IQ
+|   |   |   |   ├───mk_MK
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pl_PL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ro_RO
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sk_SK
+|   |   |   |   ├───sl_SI
+|   |   |   |   ├───sr_RS@latin
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   ├───uz_UZ@cyrillic
+|   |   |   |   ├───uz_UZ@latin
+|   |   |   |   └───vi_VN
+|   |   |   └───templates
+|   |   ├───pubmed
+|   |   |   ├───filter
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───eu_ES
+|   |   |   |   ├───fa_IR
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───hr_HR
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───ka_GE
+|   |   |   |   ├───ku_IQ
+|   |   |   |   ├───mk_MK
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pl_PL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sk_SK
+|   |   |   |   ├───sl_SI
+|   |   |   |   ├───sr_RS@latin
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   ├───uz_UZ@cyrillic
+|   |   |   |   ├───uz_UZ@latin
+|   |   |   |   ├───vi_VN
+|   |   |   |   └───zh_CN
+|   |   |   └───templates
+|   |   └───users
+|   |       ├───locale
+|   |       |   ├───ar_IQ
+|   |       |   ├───ca_ES
+|   |       |   ├───cs_CZ
+|   |       |   ├───da_DK
+|   |       |   ├───de_DE
+|   |       |   ├───en_US
+|   |       |   ├───es_ES
+|   |       |   ├───fa_IR
+|   |       |   ├───fi_FI
+|   |       |   ├───fr_CA
+|   |       |   ├───fr_FR
+|   |       |   ├───hr_HR
+|   |       |   ├───hu_HU
+|   |       |   ├───id_ID
+|   |       |   ├───it_IT
+|   |       |   ├───ka_GE
+|   |       |   ├───ku_IQ
+|   |       |   ├───mk_MK
+|   |       |   ├───nb_NO
+|   |       |   ├───nl_NL
+|   |       |   ├───pl_PL
+|   |       |   ├───pt_BR
+|   |       |   ├───pt_PT
+|   |       |   ├───ro_RO
+|   |       |   ├───ru_RU
+|   |       |   ├───sk_SK
+|   |       |   ├───sl_SI
+|   |       |   ├───sr_RS@latin
+|   |       |   ├───sv_SE
+|   |       |   ├───tr_TR
+|   |       |   ├───uk_UA
+|   |       |   ├───uz_UZ@cyrillic
+|   |       |   ├───uz_UZ@latin
+|   |       |   └───vi_VN
+|   |       └───templates
+|   ├───metadata
+|   |   └───dc11
+|   |       ├───filter
+|   |       └───schema
+|   ├───oaiMetadataFormats
+|   |   ├───dc
+|   |   |   └───locale
+|   |   |       ├───ar_IQ
+|   |   |       ├───da_DK
+|   |   |       ├───es_ES
+|   |   |       ├───id_ID
+|   |   |       ├───it_IT
+|   |   |       ├───sr_SR
+|   |   |       ├───sv_SE
+|   |   |       └───tr_TR
+|   |   ├───marc
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───fa_IR
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───ka_GE
+|   |   |   |   ├───ku_IQ
+|   |   |   |   ├───mk_MK
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pl_PL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sk_SK
+|   |   |   |   ├───sl_SI
+|   |   |   |   ├───sr_RS@latin
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   ├───uz_UZ@cyrillic
+|   |   |   |   ├───uz_UZ@latin
+|   |   |   |   ├───vi_VN
+|   |   |   |   └───zh_CN
+|   |   |   └───templates
+|   |   ├───marcxml
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───fa_IR
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───ka_GE
+|   |   |   |   ├───ku_IQ
+|   |   |   |   ├───mk_MK
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pl_PL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sk_SK
+|   |   |   |   ├───sl_SI
+|   |   |   |   ├───sr_RS@latin
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   ├───uz_UZ@cyrillic
+|   |   |   |   ├───uz_UZ@latin
+|   |   |   |   ├───vi_VN
+|   |   |   |   └───zh_CN
+|   |   |   └───templates
+|   |   └───rfc1807
+|   |       └───locale
+|   |           ├───ar_IQ
+|   |           ├───ca_ES
+|   |           ├───cs_CZ
+|   |           ├───da_DK
+|   |           ├───de_DE
+|   |           ├───en_US
+|   |           ├───es_ES
+|   |           ├───fa_IR
+|   |           ├───fi_FI
+|   |           ├───fr_CA
+|   |           ├───fr_FR
+|   |           ├───hu_HU
+|   |           ├───id_ID
+|   |           ├───it_IT
+|   |           ├───ka_GE
+|   |           ├───ku_IQ
+|   |           ├───mk_MK
+|   |           ├───nb_NO
+|   |           ├───nl_NL
+|   |           ├───pl_PL
+|   |           ├───pt_BR
+|   |           ├───pt_PT
+|   |           ├───ru_RU
+|   |           ├───sk_SK
+|   |           ├───sl_SI
+|   |           ├───sr_RS@latin
+|   |           ├───sv_SE
+|   |           ├───tr_TR
+|   |           ├───uk_UA
+|   |           ├───uz_UZ@cyrillic
+|   |           ├───uz_UZ@latin
+|   |           ├───vi_VN
+|   |           └───zh_CN
+|   ├───paymethod
+|   |   ├───manual
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───eu_ES
+|   |   |   |   ├───fa_IR
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───hr_HR
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───ka_GE
+|   |   |   |   ├───ku_IQ
+|   |   |   |   ├───mk_MK
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pl_PL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sk_SK
+|   |   |   |   ├───sl_SI
+|   |   |   |   ├───sr_RS@latin
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   ├───uz_UZ@cyrillic
+|   |   |   |   ├───uz_UZ@latin
+|   |   |   |   ├───vi_VN
+|   |   |   |   └───zh_CN
+|   |   |   └───templates
+|   |   └───paypal
+|   |       ├───images
+|   |       ├───locale
+|   |       |   ├───ar_IQ
+|   |       |   ├───ca_ES
+|   |       |   ├───cs_CZ
+|   |       |   ├───da_DK
+|   |       |   ├───de_DE
+|   |       |   ├───en_US
+|   |       |   ├───es_ES
+|   |       |   ├───eu_ES
+|   |       |   ├───fa_IR
+|   |       |   ├───fi_FI
+|   |       |   ├───fr_CA
+|   |       |   ├───fr_FR
+|   |       |   ├───hu_HU
+|   |       |   ├───id_ID
+|   |       |   ├───it_IT
+|   |       |   ├───ka_GE
+|   |       |   ├───ku_IQ
+|   |       |   ├───mk_MK
+|   |       |   ├───nb_NO
+|   |       |   ├───nl_NL
+|   |       |   ├───pl_PL
+|   |       |   ├───pt_BR
+|   |       |   ├───pt_PT
+|   |       |   ├───ru_RU
+|   |       |   ├───sk_SK
+|   |       |   ├───sl_SI
+|   |       |   ├───tr_TR
+|   |       |   ├───uk_UA
+|   |       |   ├───uz_UZ@cyrillic
+|   |       |   ├───uz_UZ@latin
+|   |       |   ├───vi_VN
+|   |       |   └───zh_CN
+|   |       └───vendor
+|   |           ├───clue
+|   |           |   └───stream─filter
+|   |           |       └───src
+|   |           ├───composer
+|   |           ├───guzzlehttp
+|   |           |   ├───guzzle
+|   |           |   |   └───src
+|   |           |   |       ├───Cookie
+|   |           |   |       ├───Exception
+|   |           |   |       └───Handler
+|   |           |   ├───promises
+|   |           |   |   └───src
+|   |           |   └───psr7
+|   |           |       └───src
+|   |           ├───moneyphp
+|   |           |   └───money
+|   |           |       ├───resources
+|   |           |       └───src
+|   |           |           ├───Calculator
+|   |           |           ├───Currencies
+|   |           |           ├───Exception
+|   |           |           ├───Exchange
+|   |           |           ├───Formatter
+|   |           |           ├───Parser
+|   |           |           └───PHPUnit
+|   |           ├───omnipay
+|   |           |   ├───common
+|   |           |   |   └───src
+|   |           |   |       └───Common
+|   |           |   |           ├───Exception
+|   |           |   |           ├───Http
+|   |           |   |           |   └───Exception
+|   |           |   |           └───Message
+|   |           |   └───paypal
+|   |           |       └───src
+|   |           |           ├───Message
+|   |           |           └───Support
+|   |           |               └───InstantUpdateApi
+|   |           ├───php─http
+|   |           |   ├───discovery
+|   |           |   |   └───src
+|   |           |   |       ├───Exception
+|   |           |   |       └───Strategy
+|   |           |   ├───guzzle6─adapter
+|   |           |   |   └───src
+|   |           |   |       └───Exception
+|   |           |   ├───httplug
+|   |           |   |   └───src
+|   |           |   |       ├───Exception
+|   |           |   |       └───Promise
+|   |           |   ├───message
+|   |           |   |   └───src
+|   |           |   |       ├───Authentication
+|   |           |   |       ├───Builder
+|   |           |   |       ├───Decorator
+|   |           |   |       ├───Encoding
+|   |           |   |       |   └───Filter
+|   |           |   |       ├───Exception
+|   |           |   |       ├───Formatter
+|   |           |   |       ├───MessageFactory
+|   |           |   |       ├───RequestMatcher
+|   |           |   |       ├───Stream
+|   |           |   |       ├───StreamFactory
+|   |           |   |       └───UriFactory
+|   |           |   ├───message─factory
+|   |           |   |   └───src
+|   |           |   └───promise
+|   |           |       └───src
+|   |           ├───psr
+|   |           |   ├───http─client
+|   |           |   |   └───src
+|   |           |   └───http─message
+|   |           |       └───src
+|   |           ├───ralouphie
+|   |           |   └───getallheaders
+|   |           |       └───src
+|   |           └───symfony
+|   |               ├───event─dispatcher
+|   |               |   ├───Debug
+|   |               |   ├───DependencyInjection
+|   |               |   └───Tests
+|   |               |       ├───Debug
+|   |               |       └───DependencyInjection
+|   |               ├───http─foundation
+|   |               |   ├───Exception
+|   |               |   ├───File
+|   |               |   |   ├───Exception
+|   |               |   |   └───MimeType
+|   |               |   ├───Session
+|   |               |   |   ├───Attribute
+|   |               |   |   ├───Flash
+|   |               |   |   └───Storage
+|   |               |   |       ├───Handler
+|   |               |   |       └───Proxy
+|   |               |   └───Test
+|   |               |       └───Constraint
+|   |               ├───mime
+|   |               |   ├───Crypto
+|   |               |   ├───DependencyInjection
+|   |               |   ├───Encoder
+|   |               |   ├───Exception
+|   |               |   ├───Header
+|   |               |   ├───Part
+|   |               |   |   └───Multipart
+|   |               |   ├───Resources
+|   |               |   |   └───bin
+|   |               |   └───Test
+|   |               |       └───Constraint
+|   |               ├───polyfill─intl─idn
+|   |               ├───polyfill─mbstring
+|   |               |   └───Resources
+|   |               |       └───unidata
+|   |               └───polyfill─php72
+|   ├───pubIds
+|   |   ├───doi
+|   |   |   ├───classes
+|   |   |   |   └───form
+|   |   |   ├───js
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───fa_IR
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───ka_GE
+|   |   |   |   ├───ko_KR
+|   |   |   |   ├───ku_IQ
+|   |   |   |   ├───mk_MK
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pl_PL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ro_RO
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sk_SK
+|   |   |   |   ├───sl_SI
+|   |   |   |   ├───sr_RS@latin
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   ├───uz_UZ@cyrillic
+|   |   |   |   ├───uz_UZ@latin
+|   |   |   |   └───vi_VN
+|   |   |   └───templates
+|   |   └───urn
+|   |       ├───classes
+|   |       |   └───form
+|   |       ├───js
+|   |       ├───locale
+|   |       |   ├───ar_IQ
+|   |       |   ├───bs_BA
+|   |       |   ├───ca_ES
+|   |       |   ├───cs_CZ
+|   |       |   ├───da_DK
+|   |       |   ├───de_DE
+|   |       |   ├───el_GR
+|   |       |   ├───en_US
+|   |       |   ├───es_ES
+|   |       |   ├───fa_IR
+|   |       |   ├───fi_FI
+|   |       |   ├───fr_CA
+|   |       |   ├───fr_FR
+|   |       |   ├───hu_HU
+|   |       |   ├───id_ID
+|   |       |   ├───it_IT
+|   |       |   ├───ka_GE
+|   |       |   ├───ku_IQ
+|   |       |   ├───mk_MK
+|   |       |   ├───nb_NO
+|   |       |   ├───nl_NL
+|   |       |   ├───pl_PL
+|   |       |   ├───pt_BR
+|   |       |   ├───pt_PT
+|   |       |   ├───ro_RO
+|   |       |   ├───ru_RU
+|   |       |   ├───sk_SK
+|   |       |   ├───sl_SI
+|   |       |   ├───sr_RS@latin
+|   |       |   ├───sv_SE
+|   |       |   ├───tr_TR
+|   |       |   ├───uk_UA
+|   |       |   ├───uz_UZ@cyrillic
+|   |       |   ├───uz_UZ@latin
+|   |       |   └───vi_VN
+|   |       └───templates
+|   ├───reports
+|   |   ├───articles
+|   |   |   └───locale
+|   |   |       ├───ar_IQ
+|   |   |       ├───ca_ES
+|   |   |       ├───cs_CZ
+|   |   |       ├───da_DK
+|   |   |       ├───de_DE
+|   |   |       ├───el_GR
+|   |   |       ├───en_US
+|   |   |       ├───es_ES
+|   |   |       ├───eu_ES
+|   |   |       ├───fa_IR
+|   |   |       ├───fi_FI
+|   |   |       ├───fr_CA
+|   |   |       ├───fr_FR
+|   |   |       ├───hr_HR
+|   |   |       ├───hu_HU
+|   |   |       ├───id_ID
+|   |   |       ├───it_IT
+|   |   |       ├───ka_GE
+|   |   |       ├───ko_KR
+|   |   |       ├───ku_IQ
+|   |   |       ├───mk_MK
+|   |   |       ├───nb_NO
+|   |   |       ├───nl_NL
+|   |   |       ├───pl_PL
+|   |   |       ├───pt_BR
+|   |   |       ├───pt_PT
+|   |   |       ├───ru_RU
+|   |   |       ├───sk_SK
+|   |   |       ├───sl_SI
+|   |   |       ├───sr_RS@latin
+|   |   |       ├───sv_SE
+|   |   |       ├───tr_TR
+|   |   |       ├───uk_UA
+|   |   |       ├───uz_UZ@cyrillic
+|   |   |       ├───uz_UZ@latin
+|   |   |       ├───vi_VN
+|   |   |       └───zh_CN
+|   |   ├───counter
+|   |   |   ├───classes
+|   |   |   |   ├───COUNTER
+|   |   |   |   └───reports
+|   |   |   ├───locale
+|   |   |   |   ├───ar_IQ
+|   |   |   |   ├───ca_ES
+|   |   |   |   ├───cs_CZ
+|   |   |   |   ├───da_DK
+|   |   |   |   ├───de_DE
+|   |   |   |   ├───el_GR
+|   |   |   |   ├───en_US
+|   |   |   |   ├───es_ES
+|   |   |   |   ├───eu_ES
+|   |   |   |   ├───fa_IR
+|   |   |   |   ├───fi_FI
+|   |   |   |   ├───fr_CA
+|   |   |   |   ├───fr_FR
+|   |   |   |   ├───hr_HR
+|   |   |   |   ├───hu_HU
+|   |   |   |   ├───id_ID
+|   |   |   |   ├───it_IT
+|   |   |   |   ├───ja_JP
+|   |   |   |   ├───ka_GE
+|   |   |   |   ├───ku_IQ
+|   |   |   |   ├───mk_MK
+|   |   |   |   ├───nb_NO
+|   |   |   |   ├───nl_NL
+|   |   |   |   ├───pl_PL
+|   |   |   |   ├───pt_BR
+|   |   |   |   ├───pt_PT
+|   |   |   |   ├───ro_RO
+|   |   |   |   ├───ru_RU
+|   |   |   |   ├───sk_SK
+|   |   |   |   ├───sl_SI
+|   |   |   |   ├───sr_SR
+|   |   |   |   ├───sv_SE
+|   |   |   |   ├───tr_TR
+|   |   |   |   ├───uk_UA
+|   |   |   |   ├───uz_UZ@cyrillic
+|   |   |   |   ├───uz_UZ@latin
+|   |   |   |   ├───vi_VN
+|   |   |   |   ├───zh_CN
+|   |   |   |   └───zh_TW
+|   |   |   └───templates
+|   |   ├───reviewReport
+|   |   |   └───locale
+|   |   |       ├───ar_IQ
+|   |   |       ├───bg_BG
+|   |   |       ├───ca_ES
+|   |   |       ├───cs_CZ
+|   |   |       ├───da_DK
+|   |   |       ├───de_DE
+|   |   |       ├───el_GR
+|   |   |       ├───en_US
+|   |   |       ├───es_ES
+|   |   |       ├───fa_IR
+|   |   |       ├───fi_FI
+|   |   |       ├───fr_CA
+|   |   |       ├───fr_FR
+|   |   |       ├───hu_HU
+|   |   |       ├───id_ID
+|   |   |       ├───it_IT
+|   |   |       ├───ja_JP
+|   |   |       ├───nb_NO
+|   |   |       ├───nl_NL
+|   |   |       ├───pt_BR
+|   |   |       ├───pt_PT
+|   |   |       ├───ro_RO
+|   |   |       ├───ru_RU
+|   |   |       ├───sl_SI
+|   |   |       ├───sr_SR
+|   |   |       ├───sv_SE
+|   |   |       ├───tr_TR
+|   |   |       ├───uk_UA
+|   |   |       ├───vi_VN
+|   |   |       └───zh_CN
+|   |   ├───subscriptions
+|   |   |   └───locale
+|   |   |       ├───ar_IQ
+|   |   |       ├───ca_ES
+|   |   |       ├───cs_CZ
+|   |   |       ├───da_DK
+|   |   |       ├───de_DE
+|   |   |       ├───el_GR
+|   |   |       ├───en_US
+|   |   |       ├───es_ES
+|   |   |       ├───fi_FI
+|   |   |       ├───fr_CA
+|   |   |       ├───fr_FR
+|   |   |       ├───hu_HU
+|   |   |       ├───id_ID
+|   |   |       ├───it_IT
+|   |   |       ├───ka_GE
+|   |   |       ├───ku_IQ
+|   |   |       ├───mk_MK
+|   |   |       ├───nb_NO
+|   |   |       ├───nl_NL
+|   |   |       ├───pl_PL
+|   |   |       ├───pt_BR
+|   |   |       ├───pt_PT
+|   |   |       ├───ru_RU
+|   |   |       ├───sk_SK
+|   |   |       ├───sr_SR
+|   |   |       ├───sv_SE
+|   |   |       ├───tr_TR
+|   |   |       ├───uk_UA
+|   |   |       ├───uz_UZ@cyrillic
+|   |   |       ├───uz_UZ@latin
+|   |   |       └───vi_VN
+|   |   └───views
+|   |       └───locale
+|   |           ├───ar_IQ
+|   |           ├───ca_ES
+|   |           ├───cs_CZ
+|   |           ├───da_DK
+|   |           ├───de_DE
+|   |           ├───en_US
+|   |           ├───es_ES
+|   |           ├───fa_IR
+|   |           ├───fi_FI
+|   |           ├───fr_CA
+|   |           ├───fr_FR
+|   |           ├───hu_HU
+|   |           ├───id_ID
+|   |           ├───it_IT
+|   |           ├───ka_GE
+|   |           ├───ku_IQ
+|   |           ├───mk_MK
+|   |           ├───nb_NO
+|   |           ├───nl_NL
+|   |           ├───pl_PL
+|   |           ├───pt_BR
+|   |           ├───pt_PT
+|   |           ├───ru_RU
+|   |           ├───sk_SK
+|   |           ├───sl_SI
+|   |           ├───sr_RS@latin
+|   |           ├───sv_SE
+|   |           ├───tr_TR
+|   |           ├───uk_UA
+|   |           ├───uz_UZ@cyrillic
+|   |           ├───uz_UZ@latin
+|   |           ├───vi_VN
+|   |           └───zh_CN
+|   └───themes
+|       └───default
+|           ├───fonts
+|           ├───js
+|           |   └───lib
+|           |       ├───bootstrap
+|           |       └───popper
+|           ├───locale
+|           |   ├───ar_IQ
+|           |   ├───bs_BA
+|           |   ├───ca_ES
+|           |   ├───cs_CZ
+|           |   ├───da_DK
+|           |   ├───de_DE
+|           |   ├───en_US
+|           |   ├───es_ES
+|           |   ├───fa_IR
+|           |   ├───fi_FI
+|           |   ├───fr_CA
+|           |   ├───fr_FR
+|           |   ├───hu_HU
+|           |   ├───id_ID
+|           |   ├───it_IT
+|           |   ├───ja_JP
+|           |   ├───ka_GE
+|           |   ├───ko_KR
+|           |   ├───ku_IQ
+|           |   ├───mk_MK
+|           |   ├───nb_NO
+|           |   ├───nl_NL
+|           |   ├───pl_PL
+|           |   ├───pt_BR
+|           |   ├───pt_PT
+|           |   ├───ro_RO
+|           |   ├───ru_RU
+|           |   ├───sk_SK
+|           |   ├───sl_SI
+|           |   ├───sr_RS@latin
+|           |   ├───sv_SE
+|           |   ├───tr_TR
+|           |   ├───uk_UA
+|           |   ├───uz_UZ@cyrillic
+|           |   ├───uz_UZ@latin
+|           |   ├───vi_VN
+|           |   └───zh_CN
+|           └───styles
+|               ├───components
+|               ├───fonts
+|               ├───objects
+|               └───pages
+├───public
+|   └───skz─dashboard
+|       └───assets
+├───registry
+├───schemas
+├───skz─integration
+|   ├───autonomous─agents─framework
+|   |   ├───scripts
+|   |   ├───src
+|   |   |   ├───database
+|   |   |   ├───models
+|   |   |   |   └───__pycache__
+|   |   |   ├───routes
+|   |   |   ├───static
+|   |   |   └───tests
+|   |   |       └───__pycache__
+|   |   └───tests
+|   |       ├───comprehensive
+|   |       |   └───__pycache__
+|   |       ├───integration
+|   |       └───unit
+|   ├───config
+|   ├───docs
+|   |   ├───agent─specifications
+|   |   └───api─documentation
+|   ├───microservices
+|   |   ├───analytics─monitoring
+|   |   ├───api─gateway
+|   |   ├───content─quality
+|   |   ├───editorial─orchestration
+|   |   ├───publishing─production
+|   |   ├───research─discovery
+|   |   ├───review─coordination
+|   |   ├───shared
+|   |   └───submission─assistant
+|   ├───schema
+|   ├───simulation─dashboard
+|   |   ├───public
+|   |   └───src
+|   |       ├───assets
+|   |       ├───components
+|   |       |   └───ui
+|   |       ├───hooks
+|   |       └───lib
+|   ├───skin─zone─journal
+|   |   └───src
+|   |       ├───database
+|   |       ├───models
+|   |       ├───routes
+|   |       └───static
+|   └───workflow─visualization─dashboard
+|       ├───node_modules
+|       |   ├───.bin
+|       |   ├───.vite
+|       |   |   └───deps
+|       |   ├───.vite─temp
+|       |   ├───@ampproject
+|       |   |   └───remapping
+|       |   |       └───dist
+|       |   |           └───types
+|       |   ├───@babel
+|       |   |   ├───code─frame
+|       |   |   |   └───lib
+|       |   |   ├───compat─data
+|       |   |   |   └───data
+|       |   |   ├───core
+|       |   |   |   ├───lib
+|       |   |   |   |   ├───config
+|       |   |   |   |   |   ├───files
+|       |   |   |   |   |   ├───helpers
+|       |   |   |   |   |   └───validation
+|       |   |   |   |   ├───errors
+|       |   |   |   |   ├───gensync─utils
+|       |   |   |   |   ├───parser
+|       |   |   |   |   |   └───util
+|       |   |   |   |   ├───tools
+|       |   |   |   |   ├───transformation
+|       |   |   |   |   |   ├───file
+|       |   |   |   |   |   └───util
+|       |   |   |   |   └───vendor
+|       |   |   |   └───src
+|       |   |   |       └───config
+|       |   |   |           └───files
+|       |   |   ├───generator
+|       |   |   |   └───lib
+|       |   |   |       ├───generators
+|       |   |   |       └───node
+|       |   |   ├───helper─compilation─targets
+|       |   |   |   └───lib
+|       |   |   ├───helper─globals
+|       |   |   |   └───data
+|       |   |   ├───helper─module─imports
+|       |   |   |   └───lib
+|       |   |   ├───helper─module─transforms
+|       |   |   |   └───lib
+|       |   |   ├───helper─plugin─utils
+|       |   |   |   └───lib
+|       |   |   ├───helper─string─parser
+|       |   |   |   └───lib
+|       |   |   ├───helper─validator─identifier
+|       |   |   |   └───lib
+|       |   |   ├───helper─validator─option
+|       |   |   |   └───lib
+|       |   |   ├───helpers
+|       |   |   |   └───lib
+|       |   |   |       └───helpers
+|       |   |   ├───parser
+|       |   |   |   ├───bin
+|       |   |   |   ├───lib
+|       |   |   |   └───typings
+|       |   |   ├───plugin─transform─react─jsx─self
+|       |   |   |   └───lib
+|       |   |   ├───plugin─transform─react─jsx─source
+|       |   |   |   └───lib
+|       |   |   ├───runtime
+|       |   |   |   ├───helpers
+|       |   |   |   |   └───esm
+|       |   |   |   └───regenerator
+|       |   |   ├───template
+|       |   |   |   └───lib
+|       |   |   ├───traverse
+|       |   |   |   └───lib
+|       |   |   |       ├───path
+|       |   |   |       |   ├───inference
+|       |   |   |       |   └───lib
+|       |   |   |       └───scope
+|       |   |   |           └───lib
+|       |   |   └───types
+|       |   |       └───lib
+|       |   |           ├───asserts
+|       |   |           |   └───generated
+|       |   |           ├───ast─types
+|       |   |           |   └───generated
+|       |   |           ├───builders
+|       |   |           |   ├───flow
+|       |   |           |   ├───generated
+|       |   |           |   ├───react
+|       |   |           |   └───typescript
+|       |   |           ├───clone
+|       |   |           ├───comments
+|       |   |           ├───constants
+|       |   |           |   └───generated
+|       |   |           ├───converters
+|       |   |           ├───definitions
+|       |   |           ├───modifications
+|       |   |           |   ├───flow
+|       |   |           |   └───typescript
+|       |   |           ├───retrievers
+|       |   |           ├───traverse
+|       |   |           ├───utils
+|       |   |           |   └───react
+|       |   |           └───validators
+|       |   |               ├───generated
+|       |   |               └───react
+|       |   ├───@esbuild
+|       |   |   └───win32─x64
+|       |   ├───@eslint
+|       |   |   ├───config─array
+|       |   |   |   └───dist
+|       |   |   |       ├───cjs
+|       |   |   |       |   └───std__path
+|       |   |   |       └───esm
+|       |   |   |           └───std__path
+|       |   |   ├───config─helpers
+|       |   |   |   └───dist
+|       |   |   |       ├───cjs
+|       |   |   |       └───esm
+|       |   |   ├───core
+|       |   |   |   └───dist
+|       |   |   |       ├───cjs
+|       |   |   |       └───esm
+|       |   |   ├───eslintrc
+|       |   |   |   ├───conf
+|       |   |   |   ├───dist
+|       |   |   |   ├───lib
+|       |   |   |   |   ├───config─array
+|       |   |   |   |   ├───shared
+|       |   |   |   |   └───types
+|       |   |   |   └───node_modules
+|       |   |   |       └───globals
+|       |   |   ├───js
+|       |   |   |   ├───src
+|       |   |   |   |   └───configs
+|       |   |   |   └───types
+|       |   |   ├───object─schema
+|       |   |   |   └───dist
+|       |   |   |       ├───cjs
+|       |   |   |       └───esm
+|       |   |   └───plugin─kit
+|       |   |       └───dist
+|       |   |           ├───cjs
+|       |   |           └───esm
+|       |   ├───@eslint─community
+|       |   |   ├───eslint─utils
+|       |   |   |   └───node_modules
+|       |   |   |       └───eslint─visitor─keys
+|       |   |   |           ├───dist
+|       |   |   |           └───lib
+|       |   |   └───regexpp
+|       |   ├───@floating─ui
+|       |   |   ├───core
+|       |   |   |   └───dist
+|       |   |   ├───dom
+|       |   |   |   └───dist
+|       |   |   ├───react─dom
+|       |   |   |   └───dist
+|       |   |   └───utils
+|       |   |       ├───dist
+|       |   |       └───dom
+|       |   ├───@hookform
+|       |   |   └───resolvers
+|       |   |       ├───ajv
+|       |   |       |   ├───dist
+|       |   |       |   └───src
+|       |   |       |       └───__tests__
+|       |   |       |           ├───__fixtures__
+|       |   |       |           └───__snapshots__
+|       |   |       ├───arktype
+|       |   |       |   ├───dist
+|       |   |       |   └───src
+|       |   |       |       └───__tests__
+|       |   |       |           ├───__fixtures__
+|       |   |       |           └───__snapshots__
+|       |   |       ├───class─validator
+|       |   |       |   ├───dist
+|       |   |       |   └───src
+|       |   |       |       └───__tests__
+|       |   |       |           ├───__fixtures__
+|       |   |       |           └───__snapshots__
+|       |   |       ├───computed─types
+|       |   |       |   ├───dist
+|       |   |       |   └───src
+|       |   |       |       └───__tests__
+|       |   |       |           ├───__fixtures__
+|       |   |       |           └───__snapshots__
+|       |   |       ├───dist
+|       |   |       ├───effect─ts
+|       |   |       |   ├───dist
+|       |   |       |   └───src
+|       |   |       |       └───__tests__
+|       |   |       |           ├───__fixtures__
+|       |   |       |           └───__snapshots__
+|       |   |       ├───fluentvalidation─ts
+|       |   |       |   ├───dist
+|       |   |       |   └───src
+|       |   |       |       └───__tests__
+|       |   |       |           ├───__fixtures__
+|       |   |       |           └───__snapshots__
+|       |   |       ├───io─ts
+|       |   |       |   ├───dist
+|       |   |       |   └───src
+|       |   |       |       └───__tests__
+|       |   |       |           ├───__fixtures__
+|       |   |       |           └───__snapshots__
+|       |   |       ├───joi
+|       |   |       |   ├───dist
+|       |   |       |   └───src
+|       |   |       |       └───__tests__
+|       |   |       |           ├───__fixtures__
+|       |   |       |           └───__snapshots__
+|       |   |       ├───nope
+|       |   |       |   ├───dist
+|       |   |       |   └───src
+|       |   |       |       └───__tests__
+|       |   |       |           ├───__fixtures__
+|       |   |       |           └───__snapshots__
+|       |   |       ├───standard─schema
+|       |   |       |   ├───dist
+|       |   |       |   └───src
+|       |   |       |       └───__tests__
+|       |   |       |           ├───__fixtures__
+|       |   |       |           └───__snapshots__
+|       |   |       ├───superstruct
+|       |   |       |   ├───dist
+|       |   |       |   └───src
+|       |   |       |       └───__tests__
+|       |   |       |           ├───__fixtures__
+|       |   |       |           └───__snapshots__
+|       |   |       ├───typanion
+|       |   |       |   ├───dist
+|       |   |       |   └───src
+|       |   |       |       └───__tests__
+|       |   |       |           ├───__fixtures__
+|       |   |       |           └───__snapshots__
+|       |   |       ├───typebox
+|       |   |       |   ├───dist
+|       |   |       |   └───src
+|       |   |       |       └───__tests__
+|       |   |       |           ├───__fixtures__
+|       |   |       |           └───__snapshots__
+|       |   |       ├───typeschema
+|       |   |       |   ├───dist
+|       |   |       |   └───src
+|       |   |       |       └───__tests__
+|       |   |       |           ├───__fixtures__
+|       |   |       |           └───__snapshots__
+|       |   |       ├───valibot
+|       |   |       |   ├───dist
+|       |   |       |   └───src
+|       |   |       |       └───__tests__
+|       |   |       |           ├───__fixtures__
+|       |   |       |           └───__snapshots__
+|       |   |       ├───vest
+|       |   |       |   ├───dist
+|       |   |       |   └───src
+|       |   |       |       └───__tests__
+|       |   |       |           ├───__fixtures__
+|       |   |       |           └───__snapshots__
+|       |   |       ├───vine
+|       |   |       |   ├───dist
+|       |   |       |   └───src
+|       |   |       |       └───__tests__
+|       |   |       |           ├───__fixtures__
+|       |   |       |           └───__snapshots__
+|       |   |       ├───yup
+|       |   |       |   ├───dist
+|       |   |       |   └───src
+|       |   |       |       └───__tests__
+|       |   |       |           ├───__fixtures__
+|       |   |       |           └───__snapshots__
+|       |   |       └───zod
+|       |   |           ├───dist
+|       |   |           └───src
+|       |   |               └───__tests__
+|       |   |                   ├───__fixtures__
+|       |   |                   └───__snapshots__
+|       |   ├───@humanfs
+|       |   |   ├───core
+|       |   |   |   ├───dist
+|       |   |   |   └───src
+|       |   |   └───node
+|       |   |       ├───dist
+|       |   |       ├───node_modules
+|       |   |       |   └───@humanwhocodes
+|       |   |       |       └───retry
+|       |   |       |           └───dist
+|       |   |       └───src
+|       |   ├───@humanwhocodes
+|       |   |   ├───module─importer
+|       |   |   |   ├───dist
+|       |   |   |   └───src
+|       |   |   └───retry
+|       |   |       └───dist
+|       |   ├───@isaacs
+|       |   |   └───fs─minipass
+|       |   |       └───dist
+|       |   |           ├───commonjs
+|       |   |           └───esm
+|       |   ├───@jridgewell
+|       |   |   ├───gen─mapping
+|       |   |   |   ├───dist
+|       |   |   |   ├───src
+|       |   |   |   └───types
+|       |   |   ├───resolve─uri
+|       |   |   |   └───dist
+|       |   |   |       └───types
+|       |   |   ├───sourcemap─codec
+|       |   |   |   ├───dist
+|       |   |   |   ├───src
+|       |   |   |   └───types
+|       |   |   └───trace─mapping
+|       |   |       ├───dist
+|       |   |       ├───src
+|       |   |       └───types
+|       |   ├───@radix─ui
+|       |   |   ├───number
+|       |   |   |   └───dist
+|       |   |   ├───primitive
+|       |   |   |   └───dist
+|       |   |   ├───react─accordion
+|       |   |   |   └───dist
+|       |   |   ├───react─alert─dialog
+|       |   |   |   ├───dist
+|       |   |   |   └───src
+|       |   |   ├───react─arrow
+|       |   |   |   └───dist
+|       |   |   ├───react─aspect─ratio
+|       |   |   |   └───dist
+|       |   |   ├───react─avatar
+|       |   |   |   └───dist
+|       |   |   ├───react─checkbox
+|       |   |   |   └───dist
+|       |   |   ├───react─collapsible
+|       |   |   |   └───dist
+|       |   |   ├───react─collection
+|       |   |   |   └───dist
+|       |   |   ├───react─compose─refs
+|       |   |   |   └───dist
+|       |   |   ├───react─context
+|       |   |   |   └───dist
+|       |   |   ├───react─context─menu
+|       |   |   |   └───dist
+|       |   |   ├───react─dialog
+|       |   |   |   └───dist
+|       |   |   ├───react─direction
+|       |   |   |   └───dist
+|       |   |   ├───react─dismissable─layer
+|       |   |   |   └───dist
+|       |   |   ├───react─dropdown─menu
+|       |   |   |   └───dist
+|       |   |   ├───react─focus─guards
+|       |   |   |   └───dist
+|       |   |   ├───react─focus─scope
+|       |   |   |   └───dist
+|       |   |   ├───react─hover─card
+|       |   |   |   └───dist
+|       |   |   ├───react─id
+|       |   |   |   └───dist
+|       |   |   ├───react─label
+|       |   |   |   └───dist
+|       |   |   ├───react─menu
+|       |   |   |   └───dist
+|       |   |   ├───react─menubar
+|       |   |   |   └───dist
+|       |   |   ├───react─navigation─menu
+|       |   |   |   └───dist
+|       |   |   ├───react─popover
+|       |   |   |   └───dist
+|       |   |   ├───react─popper
+|       |   |   |   └───dist
+|       |   |   ├───react─portal
+|       |   |   |   └───dist
+|       |   |   ├───react─presence
+|       |   |   |   └───dist
+|       |   |   ├───react─primitive
+|       |   |   |   └───dist
+|       |   |   ├───react─progress
+|       |   |   |   └───dist
+|       |   |   ├───react─radio─group
+|       |   |   |   └───dist
+|       |   |   ├───react─roving─focus
+|       |   |   |   └───dist
+|       |   |   ├───react─scroll─area
+|       |   |   |   └───dist
+|       |   |   ├───react─select
+|       |   |   |   └───dist
+|       |   |   ├───react─separator
+|       |   |   |   └───dist
+|       |   |   ├───react─slider
+|       |   |   |   └───dist
+|       |   |   ├───react─slot
+|       |   |   |   └───dist
+|       |   |   ├───react─switch
+|       |   |   |   └───dist
+|       |   |   ├───react─tabs
+|       |   |   |   └───dist
+|       |   |   ├───react─toggle
+|       |   |   |   └───dist
+|       |   |   ├───react─toggle─group
+|       |   |   |   └───dist
+|       |   |   ├───react─tooltip
+|       |   |   |   └───dist
+|       |   |   ├───react─use─callback─ref
+|       |   |   |   └───dist
+|       |   |   ├───react─use─controllable─state
+|       |   |   |   └───dist
+|       |   |   ├───react─use─effect─event
+|       |   |   |   ├───dist
+|       |   |   |   └───src
+|       |   |   ├───react─use─escape─keydown
+|       |   |   |   └───dist
+|       |   |   ├───react─use─is─hydrated
+|       |   |   |   ├───dist
+|       |   |   |   └───src
+|       |   |   ├───react─use─layout─effect
+|       |   |   |   └───dist
+|       |   |   ├───react─use─previous
+|       |   |   |   └───dist
+|       |   |   ├───react─use─rect
+|       |   |   |   └───dist
+|       |   |   ├───react─use─size
+|       |   |   |   └───dist
+|       |   |   ├───react─visually─hidden
+|       |   |   |   └───dist
+|       |   |   └───rect
+|       |   |       └───dist
+|       |   ├───@rolldown
+|       |   |   └───pluginutils
+|       |   |       └───dist
+|       |   ├───@rollup
+|       |   |   └───rollup─win32─x64─msvc
+|       |   ├───@standard─schema
+|       |   |   └───utils
+|       |   |       └───dist
+|       |   ├───@tailwindcss
+|       |   |   ├───node
+|       |   |   |   └───dist
+|       |   |   ├───oxide
+|       |   |   |   └───scripts
+|       |   |   ├───oxide─win32─x64─msvc
+|       |   |   └───vite
+|       |   |       └───dist
+|       |   ├───@types
+|       |   |   ├───babel__core
+|       |   |   ├───babel__generator
+|       |   |   ├───babel__template
+|       |   |   ├───babel__traverse
+|       |   |   ├───d3
+|       |   |   ├───d3─array
+|       |   |   ├───d3─axis
+|       |   |   ├───d3─brush
+|       |   |   ├───d3─chord
+|       |   |   ├───d3─color
+|       |   |   ├───d3─contour
+|       |   |   ├───d3─delaunay
+|       |   |   ├───d3─dispatch
+|       |   |   ├───d3─drag
+|       |   |   ├───d3─dsv
+|       |   |   ├───d3─ease
+|       |   |   ├───d3─fetch
+|       |   |   ├───d3─force
+|       |   |   ├───d3─format
+|       |   |   ├───d3─geo
+|       |   |   ├───d3─hierarchy
+|       |   |   ├───d3─interpolate
+|       |   |   ├───d3─path
+|       |   |   ├───d3─polygon
+|       |   |   ├───d3─quadtree
+|       |   |   ├───d3─random
+|       |   |   ├───d3─scale
+|       |   |   ├───d3─scale─chromatic
+|       |   |   ├───d3─selection
+|       |   |   ├───d3─shape
+|       |   |   ├───d3─time
+|       |   |   ├───d3─time─format
+|       |   |   ├───d3─timer
+|       |   |   ├───d3─transition
+|       |   |   ├───d3─zoom
+|       |   |   ├───estree
+|       |   |   ├───geojson
+|       |   |   ├───json─schema
+|       |   |   ├───react
+|       |   |   |   └───ts5.0
+|       |   |   |       └───v18
+|       |   |   |           └───ts5.0
+|       |   |   └───react─dom
+|       |   |       └───test─utils
+|       |   ├───@vitejs
+|       |   |   └───plugin─react
+|       |   |       └───dist
+|       |   ├───acorn
+|       |   |   ├───bin
+|       |   |   └───dist
+|       |   ├───acorn─jsx
+|       |   ├───ajv
+|       |   |   ├───dist
+|       |   |   ├───lib
+|       |   |   |   ├───compile
+|       |   |   |   ├───dot
+|       |   |   |   ├───dotjs
+|       |   |   |   └───refs
+|       |   |   └───scripts
+|       |   ├───animejs
+|       |   |   ├───lib
+|       |   |   |   └───gui
+|       |   |   └───types
+|       |   ├───ansi─styles
+|       |   ├───argparse
+|       |   |   └───lib
+|       |   ├───aria─hidden
+|       |   |   └───dist
+|       |   |       ├───es2015
+|       |   |       ├───es2019
+|       |   |       └───es5
+|       |   ├───balanced─match
+|       |   |   └───.github
+|       |   ├───brace─expansion
+|       |   ├───browserslist
+|       |   ├───callsites
+|       |   ├───caniuse─lite
+|       |   |   ├───data
+|       |   |   |   ├───features
+|       |   |   |   └───regions
+|       |   |   └───dist
+|       |   |       ├───lib
+|       |   |       └───unpacker
+|       |   ├───chalk
+|       |   |   └───source
+|       |   ├───chownr
+|       |   |   └───dist
+|       |   |       ├───commonjs
+|       |   |       └───esm
+|       |   ├───class─variance─authority
+|       |   |   └───dist
+|       |   ├───clsx
+|       |   |   └───dist
+|       |   ├───cmdk
+|       |   |   └───dist
+|       |   ├───color─convert
+|       |   ├───color─name
+|       |   ├───commander
+|       |   |   └───typings
+|       |   ├───concat─map
+|       |   |   ├───example
+|       |   |   └───test
+|       |   ├───convert─source─map
+|       |   ├───cookie
+|       |   |   └───dist
+|       |   ├───cross─spawn
+|       |   |   └───lib
+|       |   |       └───util
+|       |   ├───csstype
+|       |   ├───d3
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   ├───d3─array
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   |       └───threshold
+|       |   ├───d3─axis
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   ├───d3─brush
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   ├───d3─chord
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   ├───d3─color
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   ├───d3─contour
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   ├───d3─delaunay
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   ├───d3─dispatch
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   ├───d3─drag
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   ├───d3─dsv
+|       |   |   ├───bin
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   ├───d3─ease
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   ├───d3─fetch
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   ├───d3─force
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   ├───d3─format
+|       |   |   ├───dist
+|       |   |   ├───locale
+|       |   |   └───src
+|       |   ├───d3─geo
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   |       ├───clip
+|       |   |       ├───path
+|       |   |       └───projection
+|       |   ├───d3─hierarchy
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   |       ├───hierarchy
+|       |   |       ├───pack
+|       |   |       └───treemap
+|       |   ├───d3─interpolate
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   |       └───transform
+|       |   ├───d3─path
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   ├───d3─polygon
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   ├───d3─quadtree
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   ├───d3─random
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   ├───d3─scale
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   ├───d3─scale─chromatic
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   |       ├───categorical
+|       |   |       ├───diverging
+|       |   |       ├───sequential─multi
+|       |   |       └───sequential─single
+|       |   ├───d3─selection
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   |       └───selection
+|       |   ├───d3─shape
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   |       ├───curve
+|       |   |       ├───offset
+|       |   |       ├───order
+|       |   |       └───symbol
+|       |   ├───d3─time
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   ├───d3─time─format
+|       |   |   ├───dist
+|       |   |   ├───locale
+|       |   |   └───src
+|       |   ├───d3─timer
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   ├───d3─transition
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   |       ├───selection
+|       |   |       └───transition
+|       |   ├───d3─zoom
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   ├───date─fns
+|       |   |   ├───docs
+|       |   |   ├───fp
+|       |   |   |   └───_lib
+|       |   |   ├───locale
+|       |   |   |   ├───af
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───ar
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───ar─DZ
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───ar─EG
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───ar─MA
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───ar─SA
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───ar─TN
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───az
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───be
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───be─tarask
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───bg
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───bn
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───bs
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───ca
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───ckb
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───cs
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───cy
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───da
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───de
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───de─AT
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───el
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───en─AU
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───en─CA
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───en─GB
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───en─IE
+|       |   |   |   ├───en─IN
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───en─NZ
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───en─US
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───en─ZA
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───eo
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───es
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───et
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───eu
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───fa─IR
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───fi
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───fr
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───fr─CA
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───fr─CH
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───fy
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───gd
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───gl
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───gu
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───he
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───hi
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───hr
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───ht
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───hu
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───hy
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───id
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───is
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───it
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───it─CH
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───ja
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───ja─Hira
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───ka
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───kk
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───km
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───kn
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───ko
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───lb
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───lt
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───lv
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───mk
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───mn
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───ms
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───mt
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───nb
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───nl
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───nl─BE
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───nn
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───oc
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───pl
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───pt
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───pt─BR
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───ro
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───ru
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───se
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───sk
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───sl
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───sq
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───sr
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───sr─Latn
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───sv
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───ta
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───te
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───th
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───tr
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───ug
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───uk
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───uz
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───uz─Cyrl
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───vi
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───zh─CN
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───zh─HK
+|       |   |   |   |   └───_lib
+|       |   |   |   ├───zh─TW
+|       |   |   |   |   └───_lib
+|       |   |   |   └───_lib
+|       |   |   ├───parse
+|       |   |   |   └───_lib
+|       |   |   |       └───parsers
+|       |   |   └───_lib
+|       |   |       └───format
+|       |   ├───debug
+|       |   |   └───src
+|       |   ├───decimal.js─light
+|       |   |   └───doc
+|       |   ├───deep─is
+|       |   |   ├───example
+|       |   |   └───test
+|       |   ├───delaunator
+|       |   ├───detect─libc
+|       |   |   └───lib
+|       |   ├───detect─node─es
+|       |   |   ├───es5
+|       |   |   └───esm
+|       |   ├───dom─helpers
+|       |   |   ├───activeElement
+|       |   |   ├───addClass
+|       |   |   ├───addEventListener
+|       |   |   ├───animate
+|       |   |   ├───animationFrame
+|       |   |   ├───attribute
+|       |   |   ├───camelize
+|       |   |   ├───camelizeStyle
+|       |   |   ├───canUseDOM
+|       |   |   ├───childElements
+|       |   |   ├───childNodes
+|       |   |   ├───cjs
+|       |   |   ├───clear
+|       |   |   ├───closest
+|       |   |   ├───collectElements
+|       |   |   ├───collectSiblings
+|       |   |   ├───contains
+|       |   |   ├───css
+|       |   |   ├───esm
+|       |   |   ├───filterEventHandler
+|       |   |   ├───getComputedStyle
+|       |   |   ├───getScrollAccessor
+|       |   |   ├───hasClass
+|       |   |   ├───height
+|       |   |   ├───hyphenate
+|       |   |   ├───hyphenateStyle
+|       |   |   ├───insertAfter
+|       |   |   ├───isDocument
+|       |   |   ├───isInput
+|       |   |   ├───isTransform
+|       |   |   ├───isVisible
+|       |   |   ├───isWindow
+|       |   |   ├───listen
+|       |   |   ├───matches
+|       |   |   ├───nextUntil
+|       |   |   ├───offset
+|       |   |   ├───offsetParent
+|       |   |   ├───ownerDocument
+|       |   |   ├───ownerWindow
+|       |   |   ├───parents
+|       |   |   ├───position
+|       |   |   ├───prepend
+|       |   |   ├───querySelectorAll
+|       |   |   ├───remove
+|       |   |   ├───removeClass
+|       |   |   ├───removeEventListener
+|       |   |   ├───scrollbarSize
+|       |   |   ├───scrollLeft
+|       |   |   ├───scrollParent
+|       |   |   ├───scrollTo
+|       |   |   ├───scrollTop
+|       |   |   ├───siblings
+|       |   |   ├───text
+|       |   |   ├───toggleClass
+|       |   |   ├───transitionEnd
+|       |   |   ├───triggerEvent
+|       |   |   └───width
+|       |   ├───electron─to─chromium
+|       |   ├───embla─carousel
+|       |   |   ├───cjs
+|       |   |   |   └───components
+|       |   |   ├───components
+|       |   |   └───esm
+|       |   |       └───components
+|       |   ├───embla─carousel─react
+|       |   |   ├───cjs
+|       |   |   |   └───components
+|       |   |   ├───components
+|       |   |   └───esm
+|       |   |       └───components
+|       |   ├───embla─carousel─reactive─utils
+|       |   |   ├───cjs
+|       |   |   |   └───components
+|       |   |   ├───components
+|       |   |   └───esm
+|       |   |       └───components
+|       |   ├───enhanced─resolve
+|       |   |   └───lib
+|       |   |       └───util
+|       |   ├───esbuild
+|       |   |   ├───bin
+|       |   |   └───lib
+|       |   ├───escalade
+|       |   |   ├───dist
+|       |   |   └───sync
+|       |   ├───escape─string─regexp
+|       |   ├───eslint
+|       |   |   ├───bin
+|       |   |   ├───conf
+|       |   |   ├───lib
+|       |   |   |   ├───cli─engine
+|       |   |   |   |   └───formatters
+|       |   |   |   ├───config
+|       |   |   |   ├───eslint
+|       |   |   |   ├───languages
+|       |   |   |   |   └───js
+|       |   |   |   |       └───source─code
+|       |   |   |   |           └───token─store
+|       |   |   |   ├───linter
+|       |   |   |   |   └───code─path─analysis
+|       |   |   |   ├───rule─tester
+|       |   |   |   ├───rules
+|       |   |   |   |   └───utils
+|       |   |   |   |       └───unicode
+|       |   |   |   ├───services
+|       |   |   |   ├───shared
+|       |   |   |   └───types
+|       |   |   └───messages
+|       |   ├───eslint─plugin─react─hooks
+|       |   |   └───cjs
+|       |   ├───eslint─plugin─react─refresh
+|       |   ├───eslint─scope
+|       |   |   ├───dist
+|       |   |   └───lib
+|       |   ├───eslint─visitor─keys
+|       |   |   ├───dist
+|       |   |   └───lib
+|       |   ├───espree
+|       |   |   ├───dist
+|       |   |   └───lib
+|       |   ├───esquery
+|       |   |   └───dist
+|       |   ├───esrecurse
+|       |   ├───estraverse
+|       |   ├───esutils
+|       |   |   └───lib
+|       |   ├───eventemitter3
+|       |   |   └───umd
+|       |   ├───fast─deep─equal
+|       |   |   └───es6
+|       |   ├───fast─equals
+|       |   |   ├───config
+|       |   |   |   ├───rollup
+|       |   |   |   └───tsconfig
+|       |   |   ├───dist
+|       |   |   |   ├───cjs
+|       |   |   |   |   └───types
+|       |   |   |   ├───esm
+|       |   |   |   |   └───types
+|       |   |   |   ├───min
+|       |   |   |   |   └───types
+|       |   |   |   └───umd
+|       |   |   |       └───types
+|       |   |   ├───recipes
+|       |   |   ├───scripts
+|       |   |   └───src
+|       |   ├───fast─json─stable─stringify
+|       |   |   ├───.github
+|       |   |   ├───benchmark
+|       |   |   ├───example
+|       |   |   └───test
+|       |   ├───fast─levenshtein
+|       |   ├───fdir
+|       |   |   └───dist
+|       |   |       ├───api
+|       |   |       |   └───functions
+|       |   |       └───builder
+|       |   ├───file─entry─cache
+|       |   ├───find─up
+|       |   ├───flat─cache
+|       |   |   └───src
+|       |   ├───flatted
+|       |   |   ├───cjs
+|       |   |   ├───esm
+|       |   |   ├───php
+|       |   |   ├───python
+|       |   |   └───types
+|       |   ├───framer─motion
+|       |   |   ├───client
+|       |   |   ├───dist
+|       |   |   |   ├───cjs
+|       |   |   |   ├───es
+|       |   |   |   |   ├───animation
+|       |   |   |   |   |   ├───animate
+|       |   |   |   |   |   ├───animators
+|       |   |   |   |   |   |   └───waapi
+|       |   |   |   |   |   |       └───utils
+|       |   |   |   |   |   ├───hooks
+|       |   |   |   |   |   ├───interfaces
+|       |   |   |   |   |   ├───optimized─appear
+|       |   |   |   |   |   ├───sequence
+|       |   |   |   |   |   |   └───utils
+|       |   |   |   |   |   └───utils
+|       |   |   |   |   ├───components
+|       |   |   |   |   |   ├───AnimatePresence
+|       |   |   |   |   |   ├───LayoutGroup
+|       |   |   |   |   |   ├───LazyMotion
+|       |   |   |   |   |   ├───MotionConfig
+|       |   |   |   |   |   └───Reorder
+|       |   |   |   |   |       └───utils
+|       |   |   |   |   ├───context
+|       |   |   |   |   |   └───MotionContext
+|       |   |   |   |   ├───events
+|       |   |   |   |   ├───gestures
+|       |   |   |   |   |   ├───drag
+|       |   |   |   |   |   |   └───utils
+|       |   |   |   |   |   └───pan
+|       |   |   |   |   ├───motion
+|       |   |   |   |   |   ├───features
+|       |   |   |   |   |   |   ├───animation
+|       |   |   |   |   |   |   ├───layout
+|       |   |   |   |   |   |   └───viewport
+|       |   |   |   |   |   └───utils
+|       |   |   |   |   ├───projection
+|       |   |   |   |   |   ├───animation
+|       |   |   |   |   |   ├───geometry
+|       |   |   |   |   |   ├───node
+|       |   |   |   |   |   ├───shared
+|       |   |   |   |   |   ├───styles
+|       |   |   |   |   |   └───utils
+|       |   |   |   |   ├───render
+|       |   |   |   |   |   ├───components
+|       |   |   |   |   |   |   ├───m
+|       |   |   |   |   |   |   └───motion
+|       |   |   |   |   |   ├───dom
+|       |   |   |   |   |   |   ├───scroll
+|       |   |   |   |   |   |   |   ├───offsets
+|       |   |   |   |   |   |   |   └───utils
+|       |   |   |   |   |   |   ├───utils
+|       |   |   |   |   |   |   └───viewport
+|       |   |   |   |   |   ├───html
+|       |   |   |   |   |   |   └───utils
+|       |   |   |   |   |   ├───object
+|       |   |   |   |   |   ├───svg
+|       |   |   |   |   |   |   └───utils
+|       |   |   |   |   |   └───utils
+|       |   |   |   |   ├───utils
+|       |   |   |   |   |   └───reduced─motion
+|       |   |   |   |   └───value
+|       |   |   |   |       ├───scroll
+|       |   |   |   |       ├───use─will─change
+|       |   |   |   |       └───utils
+|       |   |   |   └───types
+|       |   |   ├───dom
+|       |   |   |   └───mini
+|       |   |   ├───m
+|       |   |   └───mini
+|       |   ├───gensync
+|       |   |   └───test
+|       |   ├───get─nonce
+|       |   |   └───dist
+|       |   |       ├───es2015
+|       |   |       └───es5
+|       |   ├───glob─parent
+|       |   ├───globals
+|       |   ├───graceful─fs
+|       |   ├───has─flag
+|       |   ├───iconv─lite
+|       |   |   ├───.github
+|       |   |   ├───.idea
+|       |   |   |   ├───codeStyles
+|       |   |   |   └───inspectionProfiles
+|       |   |   ├───encodings
+|       |   |   |   └───tables
+|       |   |   └───lib
+|       |   ├───ignore
+|       |   ├───import─fresh
+|       |   ├───imurmurhash
+|       |   ├───input─otp
+|       |   |   └───dist
+|       |   ├───internmap
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   ├───is─extglob
+|       |   ├───is─glob
+|       |   ├───isexe
+|       |   |   └───test
+|       |   ├───jiti
+|       |   |   ├───dist
+|       |   |   └───lib
+|       |   ├───js─tokens
+|       |   ├───js─yaml
+|       |   |   ├───bin
+|       |   |   ├───dist
+|       |   |   └───lib
+|       |   |       ├───schema
+|       |   |       └───type
+|       |   ├───jsesc
+|       |   |   ├───bin
+|       |   |   └───man
+|       |   ├───json─buffer
+|       |   |   └───test
+|       |   ├───json─schema─traverse
+|       |   |   └───spec
+|       |   |       └───fixtures
+|       |   ├───json─stable─stringify─without─jsonify
+|       |   |   ├───example
+|       |   |   └───test
+|       |   ├───json5
+|       |   |   ├───dist
+|       |   |   └───lib
+|       |   ├───keyv
+|       |   |   └───src
+|       |   ├───levn
+|       |   |   └───lib
+|       |   ├───lightningcss
+|       |   |   └───node
+|       |   ├───lightningcss─win32─x64─msvc
+|       |   ├───locate─path
+|       |   ├───lodash
+|       |   |   └───fp
+|       |   ├───lodash.merge
+|       |   ├───loose─envify
+|       |   ├───lru─cache
+|       |   ├───lucide─react
+|       |   |   └───dist
+|       |   |       ├───cjs
+|       |   |       ├───esm
+|       |   |       |   ├───icons
+|       |   |       |   └───shared
+|       |   |       |       └───src
+|       |   |       └───umd
+|       |   ├───magic─string
+|       |   |   └───dist
+|       |   ├───minimatch
+|       |   ├───minipass
+|       |   |   └───dist
+|       |   |       ├───commonjs
+|       |   |       └───esm
+|       |   ├───minizlib
+|       |   |   └───dist
+|       |   |       ├───commonjs
+|       |   |       └───esm
+|       |   ├───mkdirp
+|       |   |   └───dist
+|       |   |       ├───cjs
+|       |   |       |   └───src
+|       |   |       └───mjs
+|       |   ├───motion─dom
+|       |   |   └───dist
+|       |   |       ├───cjs
+|       |   |       └───es
+|       |   |           ├───animation
+|       |   |           |   ├───drivers
+|       |   |           |   ├───generators
+|       |   |           |   |   ├───spring
+|       |   |           |   |   └───utils
+|       |   |           |   ├───keyframes
+|       |   |           |   |   ├───offsets
+|       |   |           |   |   └───utils
+|       |   |           |   ├───utils
+|       |   |           |   └───waapi
+|       |   |           |       ├───easing
+|       |   |           |       ├───supports
+|       |   |           |       └───utils
+|       |   |           ├───effects
+|       |   |           |   ├───attr
+|       |   |           |   ├───prop
+|       |   |           |   ├───style
+|       |   |           |   ├───svg
+|       |   |           |   └───utils
+|       |   |           ├───frameloop
+|       |   |           ├───gestures
+|       |   |           |   ├───drag
+|       |   |           |   |   └───state
+|       |   |           |   ├───press
+|       |   |           |   |   └───utils
+|       |   |           |   └───utils
+|       |   |           ├───render
+|       |   |           |   ├───dom
+|       |   |           |   |   └───utils
+|       |   |           |   └───utils
+|       |   |           ├───resize
+|       |   |           ├───scroll
+|       |   |           ├───stats
+|       |   |           ├───utils
+|       |   |           |   ├───mix
+|       |   |           |   └───supports
+|       |   |           ├───value
+|       |   |           |   ├───types
+|       |   |           |   |   ├───color
+|       |   |           |   |   ├───complex
+|       |   |           |   |   ├───maps
+|       |   |           |   |   ├───numbers
+|       |   |           |   |   └───utils
+|       |   |           |   └───utils
+|       |   |           └───view
+|       |   |               └───utils
+|       |   ├───motion─utils
+|       |   |   └───dist
+|       |   |       ├───cjs
+|       |   |       └───es
+|       |   |           └───easing
+|       |   |               ├───modifiers
+|       |   |               └───utils
+|       |   ├───ms
+|       |   ├───nanoid
+|       |   |   ├───async
+|       |   |   ├───bin
+|       |   |   ├───non─secure
+|       |   |   └───url─alphabet
+|       |   ├───natural─compare
+|       |   ├───next─themes
+|       |   |   └───dist
+|       |   ├───node─releases
+|       |   |   └───data
+|       |   |       ├───processed
+|       |   |       └───release─schedule
+|       |   ├───object─assign
+|       |   ├───optionator
+|       |   |   └───lib
+|       |   ├───p─limit
+|       |   ├───p─locate
+|       |   ├───parent─module
+|       |   ├───path─exists
+|       |   ├───path─key
+|       |   ├───picocolors
+|       |   ├───picomatch
+|       |   |   └───lib
+|       |   ├───postcss
+|       |   |   └───lib
+|       |   ├───prelude─ls
+|       |   |   └───lib
+|       |   ├───prop─types
+|       |   |   ├───lib
+|       |   |   └───node_modules
+|       |   |       └───react─is
+|       |   |           ├───cjs
+|       |   |           └───umd
+|       |   ├───punycode
+|       |   ├───react
+|       |   |   └───cjs
+|       |   ├───react─day─picker
+|       |   |   ├───dist
+|       |   |   └───src
+|       |   |       ├───components
+|       |   |       |   ├───Button
+|       |   |       |   ├───Caption
+|       |   |       |   ├───CaptionDropdowns
+|       |   |       |   ├───CaptionLabel
+|       |   |       |   ├───CaptionNavigation
+|       |   |       |   ├───Day
+|       |   |       |   ├───DayContent
+|       |   |       |   ├───Dropdown
+|       |   |       |   ├───Footer
+|       |   |       |   ├───Head
+|       |   |       |   ├───HeadRow
+|       |   |       |   |   └───utils
+|       |   |       |   ├───IconDropdown
+|       |   |       |   ├───IconLeft
+|       |   |       |   ├───IconRight
+|       |   |       |   ├───Month
+|       |   |       |   ├───Months
+|       |   |       |   ├───MonthsDropdown
+|       |   |       |   |   └───__snapshots__
+|       |   |       |   ├───Navigation
+|       |   |       |   ├───Root
+|       |   |       |   ├───Row
+|       |   |       |   ├───Table
+|       |   |       |   |   ├───utils
+|       |   |       |   |   └───__snapshots__
+|       |   |       |   ├───WeekNumber
+|       |   |       |   |   └───__snapshots__
+|       |   |       |   └───YearsDropdown
+|       |   |       |       └───__snapshots__
+|       |   |       ├───contexts
+|       |   |       |   ├───DayPicker
+|       |   |       |   |   ├───formatters
+|       |   |       |   |   ├───labels
+|       |   |       |   |   └───utils
+|       |   |       |   ├───Focus
+|       |   |       |   |   └───utils
+|       |   |       |   ├───Modifiers
+|       |   |       |   |   └───utils
+|       |   |       |   ├───Navigation
+|       |   |       |   |   └───utils
+|       |   |       |   ├───SelectMultiple
+|       |   |       |   ├───SelectRange
+|       |   |       |   |   └───utils
+|       |   |       |   └───SelectSingle
+|       |   |       ├───hooks
+|       |   |       |   ├───useActiveModifiers
+|       |   |       |   ├───useControlledValue
+|       |   |       |   ├───useDayEventHandlers
+|       |   |       |   ├───useDayRender
+|       |   |       |   |   └───utils
+|       |   |       |   ├───useId
+|       |   |       |   ├───useInput
+|       |   |       |   |   └───utils
+|       |   |       |   └───useSelectedDays
+|       |   |       └───types
+|       |   ├───react─dom
+|       |   |   └───cjs
+|       |   ├───react─hook─form
+|       |   |   └───dist
+|       |   |       ├───logic
+|       |   |       ├───types
+|       |   |       |   └───path
+|       |   |       └───utils
+|       |   ├───react─is
+|       |   |   ├───cjs
+|       |   |   └───umd
+|       |   ├───react─refresh
+|       |   |   └───cjs
+|       |   ├───react─remove─scroll
+|       |   |   ├───dist
+|       |   |   |   ├───es2015
+|       |   |   |   ├───es2019
+|       |   |   |   └───es5
+|       |   |   ├───sidecar
+|       |   |   └───UI
+|       |   ├───react─remove─scroll─bar
+|       |   |   ├───constants
+|       |   |   └───dist
+|       |   |       ├───es2015
+|       |   |       ├───es2019
+|       |   |       └───es5
+|       |   ├───react─resizable─panels
+|       |   |   └───dist
+|       |   |       └───declarations
+|       |   |           └───src
+|       |   |               ├───hooks
+|       |   |               └───utils
+|       |   |                   ├───dom
+|       |   |                   └───rects
+|       |   ├───react─router
+|       |   |   └───dist
+|       |   |       ├───development
+|       |   |       |   └───lib
+|       |   |       |       └───types
+|       |   |       └───production
+|       |   |           └───lib
+|       |   |               └───types
+|       |   ├───react─router─dom
+|       |   |   └───dist
+|       |   ├───react─smooth
+|       |   |   ├───es6
+|       |   |   ├───lib
+|       |   |   ├───src
+|       |   |   └───umd
+|       |   ├───react─style─singleton
+|       |   |   └───dist
+|       |   |       ├───es2015
+|       |   |       ├───es2019
+|       |   |       └───es5
+|       |   ├───react─transition─group
+|       |   |   ├───cjs
+|       |   |   |   └───utils
+|       |   |   ├───config
+|       |   |   ├───CSSTransition
+|       |   |   ├───dist
+|       |   |   ├───esm
+|       |   |   |   └───utils
+|       |   |   ├───ReplaceTransition
+|       |   |   ├───SwitchTransition
+|       |   |   ├───Transition
+|       |   |   ├───TransitionGroup
+|       |   |   └───TransitionGroupContext
+|       |   ├───recharts
+|       |   |   ├───es6
+|       |   |   |   ├───cartesian
+|       |   |   |   ├───chart
+|       |   |   |   ├───component
+|       |   |   |   ├───container
+|       |   |   |   ├───context
+|       |   |   |   ├───numberAxis
+|       |   |   |   ├───polar
+|       |   |   |   ├───shape
+|       |   |   |   └───util
+|       |   |   |       ├───cursor
+|       |   |   |       ├───payload
+|       |   |   |       └───tooltip
+|       |   |   ├───lib
+|       |   |   |   ├───cartesian
+|       |   |   |   ├───chart
+|       |   |   |   ├───component
+|       |   |   |   ├───container
+|       |   |   |   ├───context
+|       |   |   |   ├───numberAxis
+|       |   |   |   ├───polar
+|       |   |   |   ├───shape
+|       |   |   |   └───util
+|       |   |   |       ├───cursor
+|       |   |   |       ├───payload
+|       |   |   |       └───tooltip
+|       |   |   ├───types
+|       |   |   |   ├───cartesian
+|       |   |   |   ├───chart
+|       |   |   |   ├───component
+|       |   |   |   ├───container
+|       |   |   |   ├───context
+|       |   |   |   ├───numberAxis
+|       |   |   |   ├───polar
+|       |   |   |   ├───shape
+|       |   |   |   └───util
+|       |   |   |       ├───cursor
+|       |   |   |       ├───payload
+|       |   |   |       └───tooltip
+|       |   |   └───umd
+|       |   ├───recharts─scale
+|       |   |   ├───es6
+|       |   |   |   └───util
+|       |   |   ├───lib
+|       |   |   |   └───util
+|       |   |   ├───src
+|       |   |   |   └───util
+|       |   |   └───umd
+|       |   ├───resolve─from
+|       |   ├───robust─predicates
+|       |   |   ├───esm
+|       |   |   └───umd
+|       |   ├───rollup
+|       |   |   └───dist
+|       |   |       ├───bin
+|       |   |       ├───es
+|       |   |       |   └───shared
+|       |   |       └───shared
+|       |   ├───rw
+|       |   |   ├───lib
+|       |   |   |   └───rw
+|       |   |   └───test
+|       |   ├───safer─buffer
+|       |   ├───scheduler
+|       |   |   └───cjs
+|       |   ├───semver
+|       |   |   └───bin
+|       |   ├───set─cookie─parser
+|       |   |   └───lib
+|       |   ├───shebang─command
+|       |   ├───shebang─regex
+|       |   ├───sonner
+|       |   |   └───dist
+|       |   ├───source─map─js
+|       |   |   └───lib
+|       |   ├───strip─json─comments
+|       |   ├───supports─color
+|       |   ├───tailwind─merge
+|       |   |   ├───dist
+|       |   |   |   └───es5
+|       |   |   └───src
+|       |   |       └───lib
+|       |   ├───tailwindcss
+|       |   |   └───dist
+|       |   ├───tapable
+|       |   |   └───lib
+|       |   ├───tar
+|       |   |   ├───dist
+|       |   |   |   ├───commonjs
+|       |   |   |   └───esm
+|       |   |   └───node_modules
+|       |   |       └───yallist
+|       |   |           └───dist
+|       |   |               ├───commonjs
+|       |   |               └───esm
+|       |   ├───tiny─invariant
+|       |   |   ├───dist
+|       |   |   |   └───esm
+|       |   |   └───src
+|       |   ├───tinyglobby
+|       |   |   └───dist
+|       |   ├───tslib
+|       |   |   └───modules
+|       |   ├───tw─animate─css
+|       |   |   └───dist
+|       |   ├───type─check
+|       |   |   └───lib
+|       |   ├───update─browserslist─db
+|       |   ├───uri─js
+|       |   |   └───dist
+|       |   |       ├───es5
+|       |   |       └───esnext
+|       |   |           └───schemes
+|       |   ├───use─callback─ref
+|       |   |   └───dist
+|       |   |       ├───es2015
+|       |   |       ├───es2019
+|       |   |       └───es5
+|       |   ├───use─sidecar
+|       |   |   └───dist
+|       |   |       ├───es2015
+|       |   |       ├───es2019
+|       |   |       └───es5
+|       |   ├───use─sync─external─store
+|       |   |   ├───cjs
+|       |   |   |   └───use─sync─external─store─shim
+|       |   |   └───shim
+|       |   ├───vaul
+|       |   |   └───dist
+|       |   ├───victory─vendor
+|       |   |   ├───es
+|       |   |   ├───lib
+|       |   |   └───lib─vendor
+|       |   |       ├───d3─array
+|       |   |       |   └───src
+|       |   |       |       └───threshold
+|       |   |       ├───d3─color
+|       |   |       |   └───src
+|       |   |       ├───d3─ease
+|       |   |       |   └───src
+|       |   |       ├───d3─format
+|       |   |       |   └───src
+|       |   |       ├───d3─interpolate
+|       |   |       |   └───src
+|       |   |       |       └───transform
+|       |   |       ├───d3─path
+|       |   |       |   └───src
+|       |   |       ├───d3─scale
+|       |   |       |   └───src
+|       |   |       ├───d3─shape
+|       |   |       |   └───src
+|       |   |       |       ├───curve
+|       |   |       |       ├───offset
+|       |   |       |       ├───order
+|       |   |       |       └───symbol
+|       |   |       ├───d3─time
+|       |   |       |   └───src
+|       |   |       ├───d3─time─format
+|       |   |       |   └───src
+|       |   |       ├───d3─timer
+|       |   |       |   └───src
+|       |   |       ├───d3─voronoi
+|       |   |       |   └───src
+|       |   |       └───internmap
+|       |   |           └───src
+|       |   ├───vite
+|       |   |   ├───bin
+|       |   |   ├───dist
+|       |   |   |   ├───client
+|       |   |   |   ├───node
+|       |   |   |   |   └───chunks
+|       |   |   |   └───node─cjs
+|       |   |   ├───misc
+|       |   |   └───types
+|       |   |       └───internal
+|       |   ├───which
+|       |   |   └───bin
+|       |   ├───word─wrap
+|       |   ├───yallist
+|       |   ├───yocto─queue
+|       |   └───zod
+|       |       ├───src
+|       |       |   ├───v3
+|       |       |   |   ├───benchmarks
+|       |       |   |   ├───helpers
+|       |       |   |   ├───locales
+|       |       |   |   └───tests
+|       |       |   ├───v4
+|       |       |   |   ├───classic
+|       |       |   |   |   └───tests
+|       |       |   |   ├───core
+|       |       |   |   |   └───tests
+|       |       |   |   |       └───locales
+|       |       |   |   ├───locales
+|       |       |   |   └───mini
+|       |       |   |       └───tests
+|       |       |   └───v4─mini
+|       |       ├───v3
+|       |       |   ├───helpers
+|       |       |   └───locales
+|       |       ├───v4
+|       |       |   ├───classic
+|       |       |   ├───core
+|       |       |   ├───locales
+|       |       |   └───mini
+|       |       └───v4─mini
+|       ├───public
+|       └───src
+|           ├───assets
+|           ├───components
+|           |   └───ui
+|           ├───hooks
+|           └───lib
+├───styles
+├───templates
+|   ├───authorDashboard
+|   ├───controllers
+|   |   ├───grid
+|   |   |   ├───articleGalleys
+|   |   |   |   └───form
+|   |   |   ├───issueGalleys
+|   |   |   |   └───form
+|   |   |   ├───issues
+|   |   |   |   └───form
+|   |   |   ├───pubIds
+|   |   |   |   └───form
+|   |   |   ├───settings
+|   |   |   |   └───sections
+|   |   |   |       └───form
+|   |   |   ├───submissions
+|   |   |   ├───subscriptions
+|   |   |   └───users
+|   |   |       └───reviewer
+|   |   ├───modals
+|   |   |   └───publish
+|   |   └───tab
+|   |       ├───authorDashboard
+|   |       ├───pubIds
+|   |       |   └───form
+|   |       └───workflow
+|   ├───frontend
+|   |   ├───components
+|   |   ├───objects
+|   |   └───pages
+|   ├───gateway
+|   ├───images
+|   |   ├───icons
+|   |   └───structure
+|   ├───manageIssues
+|   ├───management
+|   ├───payments
+|   ├───reviewer
+|   |   └───review
+|   ├───skzDashboard
+|   ├───submission
+|   |   └───form
+|   └───workflow
+└───tools

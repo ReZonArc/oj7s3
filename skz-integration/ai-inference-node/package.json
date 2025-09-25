@@ -1,0 +1,35 @@
+{
+  "name": "skz-ai-integration",
+  "version": "1.0.0",
+  "description": "Production-grade AI inference integration for SKZ autonomous agents",
+  "main": "ai-engine.js",
+  "scripts": {
+    "install-models": "node scripts/download-models.js",
+    "test-inference": "node test/test-ai-engine.js",
+    "benchmark": "node benchmark/inference-benchmark.js"
+  },
+  "dependencies": {
+    "node-llama-cpp": "^2.8.0",
+    "@huggingface/transformers": "^2.17.0",
+    "express": "^4.18.0",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "dotenv": "^16.3.0",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EchoCog/ojs-7.1.git"
+  },
+  "keywords": ["ai", "llama", "inference", "academic-publishing", "autonomous-agents"],
+  "license": "MIT"
+}

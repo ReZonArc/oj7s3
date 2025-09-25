@@ -1,0 +1,68 @@
+{
+  "simulation_summary": {
+    "duration": "29 days, 23:59:59.993897",
+    "total_manuscripts": 2,
+    "acceptance_rate": 0.0,
+    "avg_review_time_days": 82.0,
+    "avg_revision_cycles": 0.0
+  },
+  "manuscript_distribution": {
+    "rejected": 2
+  },
+  "domain_distribution": {
+    "computer_science": 1,
+    "medicine": 1
+  },
+  "agent_performance": {
+    "agent_submission_assistant": {
+      "total_actions": 2,
+      "success_rate": 1.0,
+      "avg_processing_time": 8.02162972968646,
+      "efficiency_score": 1.2466294676993113
+    },
+    "agent_editorial_orchestration": {
+      "total_actions": 2,
+      "success_rate": 1.0,
+      "avg_processing_time": 5.160839882390698,
+      "efficiency_score": 1.9376691057827624
+    },
+    "agent_review_coordination": {
+      "total_actions": 2,
+      "success_rate": 1.0,
+      "avg_processing_time": 5.565999275065575,
+      "efficiency_score": 1.796622583980158
+    }
+  },
+  "venue_performance": {
+    "venue_2": {
+      "name": "NeurIPS",
+      "submissions": 1,
+      "acceptances": 0,
+      "acceptance_rate": 0.0,
+      "avg_quality": 2.2415226183162282
+    },
+    "venue_4": {
+      "name": "New England Journal of Medicine",
+      "submissions": 1,
+      "acceptances": 0,
+      "acceptance_rate": 0.0,
+      "avg_quality": 0.7945278482773441
+    }
+  },
+  "quality_metrics": {
+    "avg_manuscript_quality": 1.518025233296786,
+    "quality_improvement_rate": 0.15,
+    "collaboration_success_rate": 0.75,
+    "venue_match_accuracy": 0.8
+  },
+  "system_performance": {
+    "overall_satisfaction": 0.78,
+    "agent_efficiency_scores": {
+      "agent_submission_assistant": 1.2466294676993113,
+      "agent_editorial_orchestration": 1.9376691057827624,
+      "agent_review_coordination": 1.796622583980158
+    },
+    "bottlenecks": [],
+    "recommendations": []
+  }
+}

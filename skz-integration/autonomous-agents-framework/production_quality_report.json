@@ -1,0 +1,100 @@
+{
+  "validation_timestamp": "2025-08-14T20:53:19.526604",
+  "validation_level": "production",
+  "environment": "production",
+  "total_violations": 13,
+  "critical_violations": 12,
+  "violations": [
+    {
+      "type": "missing_api_key",
+      "component": "patent_analyzer",
+      "description": "USPTO API key not configured",
+      "severity": "CRITICAL",
+      "remediation": "Configure USPTO_API_KEY environment variable or config.uspto_api_key"
+    },
+    {
+      "type": "missing_api_key",
+      "component": "patent_analyzer",
+      "description": "Google Cloud credentials not configured",
+      "severity": "CRITICAL",
+      "remediation": "Configure GOOGLE_CLOUD_CREDENTIALS path in environment"
+    },
+    {
+      "type": "mock_implementation",
+      "component": "patent_analyzer",
+      "description": "Patent analyzer configured to use mock APIs",
+      "severity": "CRITICAL",
+      "remediation": "Set use_production_apis=True in patent analyzer configuration"
+    },
+    {
+      "type": "mock_implementation",
+      "component": "communication_automation",
+      "description": "No production email providers enabled",
+      "severity": "CRITICAL",
+      "remediation": "Enable SendGrid or Amazon SES for email delivery"
+    },
+    {
+      "type": "mock_implementation",
+      "component": "communication_automation",
+      "description": "No production SMS providers enabled",
+      "severity": "CRITICAL",
+      "remediation": "Enable Twilio for SMS delivery"
+    },
+    {
+      "type": "mock_implementation",
+      "component": "ml_decision_engine",
+      "description": "BERT model not configured - will fall back to keyword classification",
+      "severity": "CRITICAL",
+      "remediation": "Configure BERT model path in ML configuration"
+    },
+    {
+      "type": "mock_implementation",
+      "component": "ml_decision_engine",
+      "description": "Quality assessment models not configured",
+      "severity": "CRITICAL",
+      "remediation": "Configure ensemble models for quality assessment"
+    },
+    {
+      "type": "mock_implementation",
+      "component": "reviewer_matcher",
+      "description": "Sentence transformer model not configured",
+      "severity": "CRITICAL",
+      "remediation": "Configure sentence-transformers model for semantic similarity"
+    },
+    {
+      "type": "mock_implementation",
+      "component": "reviewer_matcher",
+      "description": "Global optimization disabled - will use basic matching",
+      "severity": "CRITICAL",
+      "remediation": "Enable global optimization in reviewer matcher configuration"
+    },
+    {
+      "type": "mock_implementation",
+      "component": "data_sync_manager",
+      "description": "PostgreSQL not configured - may be using SQLite",
+      "severity": "CRITICAL",
+      "remediation": "Configure PostgreSQL database URL"
+    },
+    {
+      "type": "mock_implementation",
+      "component": "data_sync_manager",
+      "description": "Redis not configured for distributed locking",
+      "severity": "CRITICAL",
+      "remediation": "Configure Redis URL for distributed operations"
+    },
+    {
+      "type": "security_violation",
+      "component": "security",
+      "description": "JWT secret not configured or too weak",
+      "severity": "CRITICAL",
+      "remediation": "Configure strong JWT_SECRET (>= 32 characters)"
+    },
+    {
+      "type": "security_violation",
+      "component": "security",
+      "description": "Default/weak value detected in COPILOT_FEATURE_FLAGS",
+      "severity": "HIGH",
+      "remediation": "Change COPILOT_FEATURE_FLAGS to a production-secure value"
+    }
+  ]
+}
