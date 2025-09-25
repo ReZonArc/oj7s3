@@ -1,0 +1,117 @@
+version: '3.8'
+
+services:
+  # SKZ Agents Application
+  skz-agents:
+    build:
+      context: .
+      dockerfile: Dockerfile.production
+    ports:
+      - "5000:5000"
+    environment:
+      - ENVIRONMENT=production
+    env_file:
+      - .env.production
+    volumes:
+      - ./config:/app/config:ro
+      - ./logs:/app/logs
+      - skz-models:/var/models
+    depends_on:
+      - postgres-main
+      - postgres-events
+      - redis
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Main PostgreSQL Database
+  postgres-main:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: skz_production
+      POSTGRES_USER: skz_user
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - postgres-main-data:/var/lib/postgresql/data
+      - ./schema/main.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+
+  # Events PostgreSQL Database
+  postgres-events:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: skz_events
+      POSTGRES_USER: events_user
+      POSTGRES_PASSWORD: ${EVENTS_POSTGRES_PASSWORD}
+    volumes:
+      - postgres-events-data:/var/lib/postgresql/data
+      - ./schema/events.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+    ports:
+      - "5433:5432"
+    restart: unless-stopped
+
+  # Redis for caching and distributed locks
+  redis:
+    image: redis:7-alpine
+    command: redis-server --appendonly yes --requirepass ${REDIS_PASSWORD}
+    volumes:
+      - redis-data:/data
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+
+  # Nginx reverse proxy
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/ssl:/etc/nginx/ssl:ro
+      - ./logs/nginx:/var/log/nginx
+    depends_on:
+      - skz-agents
+    restart: unless-stopped
+
+  # Prometheus monitoring
+  prometheus:
+    image: prom/prometheus:latest
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus-data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/etc/prometheus/console_libraries'
+      - '--web.console.templates=/etc/prometheus/consoles'
+    restart: unless-stopped
+
+  # Grafana dashboards
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=${GRAFANA_PASSWORD}
+    volumes:
+      - grafana-data:/var/lib/grafana
+      - ./monitoring/grafana/dashboards:/etc/grafana/provisioning/dashboards:ro
+    depends_on:
+      - prometheus
+    restart: unless-stopped
+
+volumes:
+  postgres-main-data:
+  postgres-events-data:
+  redis-data:
+  prometheus-data:
+  grafana-data:
+  skz-models:

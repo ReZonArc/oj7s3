@@ -793,62 +793,22 @@ Automated Quality Monitoring System''',
             return not (current_hour >= start_hour or current_hour <= end_hour)
     
     async def _get_recipient_by_id(self, recipient_id: str) -> Optional[Recipient]:
-        """Get recipient details by ID from production database"""
-        try:
-            # Production database query
-            if hasattr(self, 'db_connection') and self.db_connection:
-                query = """
-                SELECT recipient_id, name, email, phone, preferred_communication, 
-                       timezone, language, role, organization, communication_preferences
-                FROM recipients WHERE recipient_id = %s
-                """
-                result = await self.db_connection.fetchrow(query, recipient_id)
-                
-                if result:
-                    return Recipient(
-                        recipient_id=result['recipient_id'],
-                        name=result['name'],
-                        email=result['email'],
-                        phone=result['phone'],
-                        preferred_communication=MessageType(result['preferred_communication']),
-                        timezone=result['timezone'],
-                        language=result['language'],
-                        role=result['role'],
-                        organization=result['organization'],
-                        communication_preferences=json.loads(result['communication_preferences'] or '{}')
-                    )
-            
-            # If no database connection, raise error in production
-            if os.getenv('ENVIRONMENT', '').lower() == 'production':
-                raise ValueError(
-                    f"PRODUCTION ERROR: Database not configured for recipient lookup. "
-                    "Recipient ID {recipient_id} cannot be resolved without database connection."
-                )
-            
-            return None
-            
-        except Exception as e:
-            logger.error(f"Error fetching recipient {recipient_id}: {e}")
-            if os.getenv('ENVIRONMENT', '').lower() == 'production':
-                raise
-            return None
-    
-    async def _initialize_database_connection(self):
-        """Initialize production database connection"""
-        try:
-            import asyncpg
-            
-            db_url = os.getenv('DATABASE_URL') or os.getenv('POSTGRES_URL')
-            if not db_url:
-                raise ValueError("DATABASE_URL or POSTGRES_URL required for production")
-            
-            self.db_connection = await asyncpg.connect(db_url)
-            logger.info("Database connection initialized for communication automation")
-            
-        except Exception as e:
-            logger.error(f"Database connection failed: {e}")
-            if os.getenv('ENVIRONMENT', '').lower() == 'production':
-                raise ValueError(f"Production database connection required: {e}")
+        """Get recipient details by ID"""
+        
+        # This would lookup recipient in database
+        # Returning mock recipient for demonstration
+        return Recipient(
+            recipient_id=recipient_id,
+            name="Mock Recipient",
+            email="recipient@example.com",
+            phone="+1234567890",
+            preferred_communication=MessageType.EMAIL,
+            timezone="UTC",
+            language="en",
+            role="editor",
+            organization="Example Journal",
+            communication_preferences={}
+        )
     
     async def _should_escalate(self, message: CommunicationMessage, rule: EscalationRule, current_time: datetime) -> bool:
         """Check if message should be escalated"""

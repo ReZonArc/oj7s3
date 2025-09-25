@@ -413,103 +413,18 @@ class QualityAssessor:
             return self._assess_quality_basic(manuscript)
     
     def _assess_quality_ml(self, manuscript: Dict[str, Any]) -> Dict[str, Any]:
-        """Production ML-based quality assessment with ensemble models"""
+        """Production ML-based quality assessment (REQUIRES ML SETUP)"""
         try:
-            # PRODUCTION IMPLEMENTATION: Full ensemble ML quality assessment
-            
+            # TODO: Implement ensemble ML quality assessment
+            # This would require:
             # 1. BERT-based content quality assessment
-            content_quality = self._assess_content_quality_bert(manuscript)
-            
-            # 2. Statistical feature quality analysis
-            statistical_quality = self._assess_statistical_features(manuscript)
-            
+            # 2. Statistical feature quality analysis  
             # 3. Writing quality assessment using language models
-            writing_quality = self._assess_writing_quality(manuscript)
-            
             # 4. Novelty detection using citation analysis
-            novelty_score = self._assess_novelty_citations(manuscript)
-            
             # 5. Ensemble prediction combining all models
-            ensemble_score = self._combine_quality_scores(
-                content_quality, statistical_quality, writing_quality, novelty_score
-            )
             
-            return {
-                'overall_score': ensemble_score,
-                'content_quality': content_quality,
-                'statistical_rigor': statistical_quality,
-                'writing_clarity': writing_quality,
-                'novelty_score': novelty_score,
-                'confidence': self._calculate_prediction_confidence(ensemble_score),
-                'assessment_timestamp': datetime.now().isoformat()
-            }
-            
-        except Exception as e:
-            logger.error(f"ML quality assessment error: {e}")
-            # In production, we raise the error instead of falling back
-            if os.getenv('ENVIRONMENT', '').lower() == 'production':
-                raise ValueError(f"Production ML quality assessment failed: {e}. Check ML model configuration.")
+            logger.warning("ML quality assessment not yet implemented, falling back to basic")
             return self._assess_quality_basic(manuscript)
-    
-    def _assess_content_quality_bert(self, manuscript: Dict[str, Any]) -> float:
-        """BERT-based content quality assessment"""
-        try:
-            # Load BERT model for content quality assessment
-            if not hasattr(self, 'bert_content_model'):
-                self._load_bert_models()
-            
-            text = manuscript.get('abstract', '') + ' ' + manuscript.get('content', '')
-            
-            # Tokenize and encode text
-            inputs = self.bert_tokenizer(text, return_tensors='pt', max_length=512, truncation=True)
-            
-            # Get BERT embeddings
-            with torch.no_grad():
-                outputs = self.bert_content_model(**inputs)
-                embeddings = outputs.last_hidden_state.mean(dim=1)
-            
-            # Use quality classifier
-            quality_score = self.content_quality_classifier.predict_proba(embeddings.numpy())[0][1]
-            
-            return float(quality_score)
-            
-        except Exception as e:
-            logger.error(f"BERT content quality assessment error: {e}")
-            if os.getenv('ENVIRONMENT', '').lower() == 'production':
-                raise ValueError(f"BERT content quality assessment failed: {e}")
-            return 0.5
-    
-    def _load_bert_models(self):
-        """Load production BERT models"""
-        try:
-            from transformers import AutoTokenizer, AutoModel
-            import torch
-            
-            model_name = os.getenv('BERT_MODEL_NAME', 'bert-base-uncased')
-            model_path = os.getenv('BERT_MODEL_PATH')
-            
-            if model_path and os.path.exists(model_path):
-                self.bert_tokenizer = AutoTokenizer.from_pretrained(model_path)
-                self.bert_content_model = AutoModel.from_pretrained(model_path)
-            else:
-                self.bert_tokenizer = AutoTokenizer.from_pretrained(model_name)
-                self.bert_content_model = AutoModel.from_pretrained(model_name)
-            
-            # Load quality classifier
-            classifier_path = os.getenv('QUALITY_CLASSIFIER_PATH')
-            if classifier_path and os.path.exists(classifier_path):
-                with open(classifier_path, 'rb') as f:
-                    self.content_quality_classifier = pickle.load(f)
-            else:
-                # Train or load default classifier
-                self.content_quality_classifier = self._create_default_quality_classifier()
-            
-            logger.info("BERT models loaded successfully for production ML assessment")
-            
-        except Exception as e:
-            logger.error(f"BERT model loading error: {e}")
-            if os.getenv('ENVIRONMENT', '').lower() == 'production':
-                raise ValueError(f"BERT model loading failed: {e}. Ensure transformers and torch are installed.")
             
         except Exception as e:
             logger.error(f"ML quality assessment error: {e}")

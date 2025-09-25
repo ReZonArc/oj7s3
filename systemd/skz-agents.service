@@ -1,0 +1,32 @@
+[Unit]
+Description=SKZ Autonomous Agents Framework
+After=network.target postgresql.service redis.service
+
+[Service]
+Type=exec
+User=skz-agents
+Group=skz-agents
+WorkingDirectory=/opt/skz-agents
+Environment=PATH=/opt/skz-agents/venv/bin
+ExecStart=/opt/skz-agents/venv/bin/python -m uvicorn src.main:app --host 0.0.0.0 --port 5000 --workers 4
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=skz-agents
+
+# Security settings
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/skz-agents/logs /var/cache/skz-agents
+
+# Resource limits
+LimitNOFILE=65536
+MemoryMax=2G
+CPUQuota=200%
+
+[Install]
+WantedBy=multi-user.target

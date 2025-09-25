@@ -139,12 +139,12 @@ class PatentAnalyzer:
             # Build search query
             search_query = self._build_search_query(query_terms)
             
-            # Search USPTO (PRODUCTION API)
-            uspto_patents = await self._search_uspto_production(search_query, date_range, max_patents // 2)
+            # Search USPTO (mock implementation - would use actual API)
+            uspto_patents = await self._search_uspto(search_query, date_range, max_patents // 2)
             all_patents.extend(uspto_patents)
             
-            # Search Google Patents (PRODUCTION API)
-            google_patents = await self._search_google_patents_production(search_query, date_range, max_patents // 2)
+            # Search Google Patents (mock implementation)
+            google_patents = await self._search_google_patents(search_query, date_range, max_patents // 2)
             all_patents.extend(google_patents)
             
             # Deduplicate by patent number
@@ -516,87 +516,6 @@ class PatentAnalyzer:
     # Development testing should use test databases and proper API sandboxes
     # For development, use: export ENVIRONMENT=development and configure test APIs
     
-
-    async def _validate_api_configuration(self):
-        """Validate all API configurations are present for production"""
-        required_configs = {
-            'uspto_api_key': 'USPTO API access',
-            'google_patents_api_key': 'Google Patents API access',
-            'epo_api_key': 'European Patents Office API access'
-        }
-        
-        missing_configs = []
-        for config_key, description in required_configs.items():
-            if not self.config.get(config_key):
-                missing_configs.append(f"{config_key} ({description})")
-        
-        if missing_configs:
-            raise ValueError(
-                f"PRODUCTION ERROR: Missing required API configurations: {', '.join(missing_configs)}. "
-                "All patent search APIs must be configured for production deployment."
-            )
-    
-    async def _search_multi_patent_databases(self, query: str, date_range: Optional[Tuple[str, str]], limit: int) -> List[PatentDocument]:
-        """Production implementation - search multiple patent databases"""
-        await self._validate_api_configuration()
-        
-        # Search all available databases in parallel
-        search_tasks = []
-        
-        if self.config.get('uspto_api_key'):
-            search_tasks.append(self._search_uspto_production(query, date_range, limit // 3))
-        
-        if self.config.get('google_patents_api_key'):
-            search_tasks.append(self._search_google_patents_production(query, date_range, limit // 3))
-        
-        if self.config.get('epo_api_key'):
-            search_tasks.append(self._search_epo_production(query, date_range, limit // 3))
-        
-        # Execute searches in parallel
-        results = await asyncio.gather(*search_tasks, return_exceptions=True)
-        
-        # Combine results and handle errors
-        all_patents = []
-        for i, result in enumerate(results):
-            if isinstance(result, Exception):
-                logger.error(f"Patent database search failed: {result}")
-                continue
-            all_patents.extend(result)
-        
-        return all_patents
-    
-    async def _search_epo_production(self, query: str, date_range: Optional[Tuple[str, str]], limit: int) -> List[PatentDocument]:
-        """Production European Patents Office API integration"""
-        try:
-            import aiohttp
-            
-            headers = {
-                'Authorization': f'Bearer {self.config["epo_api_key"]}',
-                'Content-Type': 'application/json'
-            }
-            
-            # Build EPO-specific query
-            epo_query = self._build_epo_query(query, date_range)
-            
-            async with aiohttp.ClientSession() as session:
-                async with session.get(
-                    f"{self.api_endpoints['espacenet']}/rest-services/published-data/search",
-                    headers=headers,
-                    params={
-                        'q': epo_query,
-                        'Range': f'1-{limit}'
-                    }
-                ) as response:
-                    if response.status == 200:
-                        data = await response.json()
-                        return self._parse_epo_response(data)
-                    else:
-                        raise ValueError(f"EPO API error: {response.status}")
-                        
-        except Exception as e:
-            logger.error(f"EPO search error: {e}")
-            raise ValueError(f"EPO search failed: {e}. Check API configuration and network connectivity.")
-
     async def _calculate_relevance_score(self, patent: PatentDocument, query_terms: List[str]) -> float:
         """Calculate patent relevance score"""
         
